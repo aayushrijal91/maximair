@@ -530,6 +530,916 @@
     </div>
 </section>
 
+<section class="mega-sale">
+    <div class="container">
+        <div class="hero-heading">Mega Sale</div>
+        <div class="row justify-content-center text-jet-black align-items-center pt-3">
+            <div class="col-auto">
+                <div class="text-end text-uppercase fs-30 lh-1 fw-500">Split system<br>Supplied &amp; Installed</div>
+            </div>
+            <div class="col-auto">
+                <div class="fw-600 fs-81 lh-1 font-oswald">$1,600*</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-11">
+                <ul class="nav nav-pills mb-6" id="pills-tab-cora" role="tablist">
+                    <li class="nav-item">
+                        <button class="nav-link active" id="pills-cora-1-tab" data-bs-toggle="tab" data-bs-target="#pills-cora-1" type="button" role="tab" aria-controls="pills-cora-1" aria-selected="true">2.0kW</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="pills-cora-2-tab" data-bs-toggle="tab" data-bs-target="#pills-cora-2" type="button" role="tab" aria-controls="pills-cora-2" aria-selected="false">2.5kW</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="pills-cora-3-tab" data-bs-toggle="tab" data-bs-target="#pills-cora-3" type="button" role="tab" aria-controls="pills-cora-3" aria-selected="false">3.5kW</button>
+                    </li>
+                    <li class="nav-item best-seller">
+                        <button class="nav-link" id="pills-cora-4-tab" data-bs-toggle="tab" data-bs-target="#pills-cora-4" type="button" role="tab" aria-controls="pills-cora-4" aria-selected="false">5.0kW</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="pills-cora-5-tab" data-bs-toggle="tab" data-bs-target="#pills-cora-5" type="button" role="tab" aria-controls="pills-cora-5" aria-selected="false">6.0kW</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="pills-cora-6-tab" data-bs-toggle="tab" data-bs-target="#pills-cora-6" type="button" role="tab" aria-controls="pills-cora-6" aria-selected="false">7.1kW</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent-cora">
+                    <div class="tab-pane fade show active" id="pills-cora-1" role="tabpanel" aria-labelledby="pills-cora-1-tab">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FTXV20W</div>
+                            </div>
+                            <div class="col-xl-6 text-center px-xl-5">
+                                <?= renderImg('daikin.png', 'logo') ?>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
+                                    <div class="col-xl-8">
+                                        <div class="d-flex justify-content-between fs-20 py-2">
+                                            <div class="fw-600">Wall Mounted Split System</div>
+                                            <div class="">2.0kW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fs-35 fw-700">5 YR</div>
+                                                Warranty
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fw-700">Advanced</div>
+                                                Inverter
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                Air
+                                                <div class="fw-700">Purification</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto h-inherit">
+                                        <div class="cta-card tertiary px-4">
+                                            <div>
+                                                <div class="fw-700">No</div>
+                                                Subcontractors<br>used!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pt-3 pb-5">
+                                    <div class="">Supplied &amp; Installed</div>
+                                    <div class="font-anton fs-60 price py-2">$1,720</div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8">
+                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                            Reserve Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-cora-2" role="tabpanel" aria-labelledby="pills-cora-2-tab">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                            </div>
+                            <div class="col-xl-6 text-center px-xl-5">
+                                <?= renderImg('daikin.png', 'logo') ?>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
+                                    <div class="col-xl-8">
+                                        <div class="d-flex justify-content-between fs-20 py-2">
+                                            <div class="fw-600">Wall Mounted Split System</div>
+                                            <div class="">2.5kW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fs-35 fw-700">5 YR</div>
+                                                Warranty
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fw-700">Advanced</div>
+                                                Inverter
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                Air
+                                                <div class="fw-700">Purification</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto h-inherit">
+                                        <div class="cta-card tertiary px-4">
+                                            <div>
+                                                <div class="fw-700">No</div>
+                                                Subcontractors<br>used!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pt-3 pb-5">
+                                    <div class="">Supplied &amp; Installed</div>
+                                    <div class="font-anton fs-60 price py-2">$1,720</div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8">
+                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                            Reserve Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-cora-3" role="tabpanel" aria-labelledby="pills-cora-3-tab">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                            </div>
+                            <div class="col-xl-6 text-center px-xl-5">
+                                <?= renderImg('daikin.png', 'logo') ?>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
+                                    <div class="col-xl-8">
+                                        <div class="d-flex justify-content-between fs-20 py-2">
+                                            <div class="fw-600">Wall Mounted Split System</div>
+                                            <div class="">3.5kW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fs-35 fw-700">5 YR</div>
+                                                Warranty
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fw-700">Advanced</div>
+                                                Inverter
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                Air
+                                                <div class="fw-700">Purification</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto h-inherit">
+                                        <div class="cta-card tertiary px-4">
+                                            <div>
+                                                <div class="fw-700">No</div>
+                                                Subcontractors<br>used!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pt-3 pb-5">
+                                    <div class="">Supplied &amp; Installed</div>
+                                    <div class="font-anton fs-60 price py-2">$1,720</div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8">
+                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                            Reserve Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-cora-4" role="tabpanel" aria-labelledby="pills-cora-4-tab">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                            </div>
+                            <div class="col-xl-6 text-center px-xl-5">
+                            <?= renderImg('daikin.png', 'logo') ?>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
+                                    <div class="col-xl-8">
+                                        <div class="d-flex justify-content-between fs-20 py-2">
+                                            <div class="fw-600">Wall Mounted Split System</div>
+                                            <div class="">5.0kW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fs-35 fw-700">5 YR</div>
+                                                Warranty
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fw-700">Advanced</div>
+                                                Inverter
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                Air
+                                                <div class="fw-700">Purification</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto h-inherit">
+                                        <div class="cta-card tertiary px-4">
+                                            <div>
+                                                <div class="fw-700">No</div>
+                                                Subcontractors<br>used!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pt-3 pb-5">
+                                    <div class="">Supplied &amp; Installed</div>
+                                    <div class="font-anton fs-60 price py-2">$1,720</div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8">
+                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                            Reserve Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-cora-5" role="tabpanel" aria-labelledby="pills-cora-5-tab">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                            </div>
+                            <div class="col-xl-6 text-center px-xl-5">
+                            <?= renderImg('daikin.png', 'logo') ?>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
+                                    <div class="col-xl-8">
+                                        <div class="d-flex justify-content-between fs-20 py-2">
+                                            <div class="fw-600">Wall Mounted Split System</div>
+                                            <div class="">6.0kW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fs-35 fw-700">5 YR</div>
+                                                Warranty
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fw-700">Advanced</div>
+                                                Inverter
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                Air
+                                                <div class="fw-700">Purification</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto h-inherit">
+                                        <div class="cta-card tertiary px-4">
+                                            <div>
+                                                <div class="fw-700">No</div>
+                                                Subcontractors<br>used!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pt-3 pb-5">
+                                    <div class="">Supplied &amp; Installed</div>
+                                    <div class="font-anton fs-60 price py-2">$1,720</div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8">
+                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                            Reserve Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-cora-6" role="tabpanel" aria-labelledby="pills-cora-6-tab">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                            </div>
+                            <div class="col-xl-6 text-center px-xl-5">
+                            <?= renderImg('daikin.png', 'logo') ?>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
+                                    <div class="col-xl-8">
+                                        <div class="d-flex justify-content-between fs-20 py-2">
+                                            <div class="fw-600">Wall Mounted Split System</div>
+                                            <div class="">7.1kW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fs-35 fw-700">5 YR</div>
+                                                Warranty
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fw-700">Advanced</div>
+                                                Inverter
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                Air
+                                                <div class="fw-700">Purification</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto h-inherit">
+                                        <div class="cta-card tertiary px-4">
+                                            <div>
+                                                <div class="fw-700">No</div>
+                                                Subcontractors<br>used!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pt-3 pb-5">
+                                    <div class="">Supplied &amp; Installed</div>
+                                    <div class="font-anton fs-60 price py-2">$1,720</div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8">
+                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                            Reserve Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5">
+    <div class="text-center fs-20 font-oswald fw-500 pb-3">Terms &amp; Conditions</div>
+        <div class="row justify-content-center gx-xl-7">
+            <div class="col-auto">
+                <ul class="terms-conditions">
+                    <li>Back to back installation</li>
+                    <li>Outdoor unit positioned on PVS slab</li>
+                    <li>3 meters of refrigeration piping between<br> indoor &amp; outdoor</li>
+                </ul>
+            </div>
+            <div class="col-auto">
+                <ul class="terms-conditions">
+                    <li>5 years warranty on parts &amp; labour</li>
+                    <li>Single story pitched roof</li>
+                    <li>Sydney metro installation available</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="same-day-servicing">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4">
+                <div class="font-oswald fs-50 text-uppercase lh-12 fw-500 pt-1 pb-3">Same day servicing available</div>
+                <a href="#form" class="btn d-inline-flex btn-white btn-shadow rounded-pill text-tertiary fs-20 py-3 px-md-5 mt-4">
+                    Get Free Quote
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="same-day-servicing-strip"></div>
+
+<section class="services">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-11">
+                <ul class="nav nav-pills mb-6" id="pills-tab-lite" role="tablist">
+                    <li class="nav-item">
+                        <button class="nav-link active" id="pills-lite-1-tab" data-bs-toggle="tab" data-bs-target="#pills-lite-1" type="button" role="tab" aria-controls="pills-lite-1" aria-selected="true">2.0kW</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="pills-lite-2-tab" data-bs-toggle="tab" data-bs-target="#pills-lite-2" type="button" role="tab" aria-controls="pills-lite-2" aria-selected="false">2.5kW</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="pills-lite-3-tab" data-bs-toggle="tab" data-bs-target="#pills-lite-3" type="button" role="tab" aria-controls="pills-lite-3" aria-selected="false">3.5kW</button>
+                    </li>
+                    <li class="nav-item best-seller">
+                        <button class="nav-link" id="pills-lite-4-tab" data-bs-toggle="tab" data-bs-target="#pills-lite-4" type="button" role="tab" aria-controls="pills-lite-4" aria-selected="false">5.0kW</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="pills-lite-5-tab" data-bs-toggle="tab" data-bs-target="#pills-lite-5" type="button" role="tab" aria-controls="pills-lite-5" aria-selected="false">6.0kW</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="pills-lite-6-tab" data-bs-toggle="tab" data-bs-target="#pills-lite-6" type="button" role="tab" aria-controls="pills-lite-6" aria-selected="false">7.1kW</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent-lite">
+                    <div class="tab-pane fade show active" id="pills-lite-1" role="tabpanel" aria-labelledby="pills-lite-1-tab">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FTXV20W</div>
+                            </div>
+                            <div class="col-xl-6 text-center px-xl-5">
+                                <?= renderImg('daikin.png', 'logo') ?>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
+                                    <div class="col-xl-8">
+                                        <div class="d-flex justify-content-between fs-20 py-2">
+                                            <div class="fw-600">Wall Mounted Split System</div>
+                                            <div class="">2.0kW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fs-35 fw-700">5 YR</div>
+                                                Warranty
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fw-700">Advanced</div>
+                                                Inverter
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                Air
+                                                <div class="fw-700">Purification</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto h-inherit">
+                                        <div class="cta-card tertiary px-4">
+                                            <div>
+                                                <div class="fw-700">No</div>
+                                                Subcontractors<br>used!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pt-3 pb-5">
+                                    <div class="">Supplied &amp; Installed</div>
+                                    <div class="font-anton fs-60 price py-2">$1,600</div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8">
+                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                            Reserve Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-lite-2" role="tabpanel" aria-labelledby="pills-lite-2-tab">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                            </div>
+                            <div class="col-xl-6 text-center px-xl-5">
+                                <?= renderImg('daikin.png', 'logo') ?>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
+                                    <div class="col-xl-8">
+                                        <div class="d-flex justify-content-between fs-20 py-2">
+                                            <div class="fw-600">Wall Mounted Split System</div>
+                                            <div class="">2.5kW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fs-35 fw-700">5 YR</div>
+                                                Warranty
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fw-700">Advanced</div>
+                                                Inverter
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                Air
+                                                <div class="fw-700">Purification</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto h-inherit">
+                                        <div class="cta-card tertiary px-4">
+                                            <div>
+                                                <div class="fw-700">No</div>
+                                                Subcontractors<br>used!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pt-3 pb-5">
+                                    <div class="">Supplied &amp; Installed</div>
+                                    <div class="font-anton fs-60 price py-2">$1,600</div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8">
+                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                            Reserve Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-lite-3" role="tabpanel" aria-labelledby="pills-lite-3-tab">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                            </div>
+                            <div class="col-xl-6 text-center px-xl-5">
+                                <?= renderImg('daikin.png', 'logo') ?>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
+                                    <div class="col-xl-8">
+                                        <div class="d-flex justify-content-between fs-20 py-2">
+                                            <div class="fw-600">Wall Mounted Split System</div>
+                                            <div class="">3.5kW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fs-35 fw-700">5 YR</div>
+                                                Warranty
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fw-700">Advanced</div>
+                                                Inverter
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                Air
+                                                <div class="fw-700">Purification</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto h-inherit">
+                                        <div class="cta-card tertiary px-4">
+                                            <div>
+                                                <div class="fw-700">No</div>
+                                                Subcontractors<br>used!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pt-3 pb-5">
+                                    <div class="">Supplied &amp; Installed</div>
+                                    <div class="font-anton fs-60 price py-2">$1,600</div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8">
+                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                            Reserve Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-lite-4" role="tabpanel" aria-labelledby="pills-lite-4-tab">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                            </div>
+                            <div class="col-xl-6 text-center px-xl-5">
+                            <?= renderImg('daikin.png', 'logo') ?>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
+                                    <div class="col-xl-8">
+                                        <div class="d-flex justify-content-between fs-20 py-2">
+                                            <div class="fw-600">Wall Mounted Split System</div>
+                                            <div class="">5.0kW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fs-35 fw-700">5 YR</div>
+                                                Warranty
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fw-700">Advanced</div>
+                                                Inverter
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                Air
+                                                <div class="fw-700">Purification</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto h-inherit">
+                                        <div class="cta-card tertiary px-4">
+                                            <div>
+                                                <div class="fw-700">No</div>
+                                                Subcontractors<br>used!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pt-3 pb-5">
+                                    <div class="">Supplied &amp; Installed</div>
+                                    <div class="font-anton fs-60 price py-2">$1,600</div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8">
+                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                            Reserve Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-lite-5" role="tabpanel" aria-labelledby="pills-lite-5-tab">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                            </div>
+                            <div class="col-xl-6 text-center px-xl-5">
+                            <?= renderImg('daikin.png', 'logo') ?>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
+                                    <div class="col-xl-8">
+                                        <div class="d-flex justify-content-between fs-20 py-2">
+                                            <div class="fw-600">Wall Mounted Split System</div>
+                                            <div class="">6.0kW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fs-35 fw-700">5 YR</div>
+                                                Warranty
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fw-700">Advanced</div>
+                                                Inverter
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                Air
+                                                <div class="fw-700">Purification</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto h-inherit">
+                                        <div class="cta-card tertiary px-4">
+                                            <div>
+                                                <div class="fw-700">No</div>
+                                                Subcontractors<br>used!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pt-3 pb-5">
+                                    <div class="">Supplied &amp; Installed</div>
+                                    <div class="font-anton fs-60 price py-2">$1,600</div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8">
+                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                            Reserve Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-lite-6" role="tabpanel" aria-labelledby="pills-lite-6-tab">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6">
+                                <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                            </div>
+                            <div class="col-xl-6 text-center px-xl-5">
+                            <?= renderImg('daikin.png', 'logo') ?>
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
+                                    <div class="col-xl-8">
+                                        <div class="d-flex justify-content-between fs-20 py-2">
+                                            <div class="fw-600">Wall Mounted Split System</div>
+                                            <div class="">7.1kW</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row py-4">
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fs-35 fw-700">5 YR</div>
+                                                Warranty
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                <div class="fw-700">Advanced</div>
+                                                Inverter
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col h-inherit">
+                                        <div class="cta-card primary">
+                                            <div>
+                                                Air
+                                                <div class="fw-700">Purification</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto h-inherit">
+                                        <div class="cta-card tertiary px-4">
+                                            <div>
+                                                <div class="fw-700">No</div>
+                                                Subcontractors<br>used!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center pt-3 pb-5">
+                                    <div class="">Supplied &amp; Installed</div>
+                                    <div class="font-anton fs-60 price py-2">$1,600</div>
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-xl-8">
+                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                            Reserve Now
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5">
+    <div class="text-center fs-20 font-oswald fw-500 pb-3">Terms &amp; Conditions</div>
+        <div class="row justify-content-center gx-xl-7">
+            <div class="col-auto">
+                <ul class="terms-conditions">
+                    <li>Back to back installation</li>
+                    <li>Outdoor unit positioned on PVS slab</li>
+                    <li>3 meters of refrigeration piping between<br> indoor &amp; outdoor</li>
+                </ul>
+            </div>
+            <div class="col-auto">
+                <ul class="terms-conditions">
+                    <li>5 years warranty on parts &amp; labour</li>
+                    <li>Single story pitched roof</li>
+                    <li>Sydney metro installation available</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
 <footer>
     <div class="container">
         <div class="row justify-content-center justify-content-lg-between align-items-center">
