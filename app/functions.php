@@ -1,7 +1,7 @@
 <?php
 include __DIR__ . '/env.php';
 
-$site = "Website Name";
+$site = "Maxim Air";
 $phone_number = "(02) 9157 5577";
 $admin_email = 'arijal@aiims.com.au';
 $bcc_email = "";

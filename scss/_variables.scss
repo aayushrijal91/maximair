@@ -4,7 +4,7 @@ $tertiary: #ededed;
 $black: #000000;
 $white: #ffffff;
 $light: #f3f3f3;
-$dark: #8B8B8B;
+$dark: #585858;
 $light-grey: #EEEEEE;
 $dark-grey: #D9D9D9;
 $grey: #d9d9d9;
@@ -30,6 +30,8 @@ $theme-colors: map-merge((
 
 $font-sizes: (
     72: 4.5rem,
+    60: 3.75rem,
+    50: 3.125rem,
     35: 2.1875rem,
     27: 1.6875rem,
     20: 1.25rem,
@@ -104,7 +106,7 @@ $utilities: map-merge((
             1:1,
             2:2,
             "111":1.11,
-            4:4,
+            "12":1.2,
         )
     ),
     "rounded": (

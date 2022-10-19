@@ -37,6 +37,7 @@ section.banner {
         background: imgUrl("banner.jpg") center;
         background-size: cover;
         position: relative;
+        filter: drop-shadow(4px 5px 11px rgba(0, 0, 0, 0.2));
         padding: 185px 0 0 0;
 
         .curtain-left,
@@ -76,6 +77,134 @@ section.banner {
             border-radius: 7px;
             padding: 18px 24px;
             color: $white;
+        }
+    }
+}
+
+section.deal {
+    background: imgUrl('deal.png') right center, linear-gradient(90.92deg, #414A4A 7.41%, #1E2525 40%);
+    background-size: contain;
+    padding: 75px 0 55px;
+}
+
+.deal-strip {
+    height: 17px;
+    background: linear-gradient(90deg, #252c2c, #1b2222);
+    filter: drop-shadow(9px 7px 13px rgba(0, 0, 0, 0.25));
+}
+
+section.services {
+    background: #E1E1E1;
+    padding: 83px 0;
+
+    .nav.nav-pills {
+        justify-content: center;
+        gap: 28px;
+
+        li.nav-item {
+            padding: 10px 0;
+
+            button.nav-link {
+                border: 1.5px solid #858787;
+                background: #E1E1E1;
+                border-radius: 12px;
+                font-size: 1.25rem;
+                height: 57px;
+                width: 167px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #585858;
+                font-weight: 500;
+
+                &.active {
+                    color: $white;
+                    background: linear-gradient(90deg, #F2B236 0%, #F26336 0.01%, #F2B236 81.23%);
+                    border: 0;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 1rem;
+                    height: 40px;
+                }
+            }
+
+            &.sale {
+                border-radius: 18px;
+                padding: 10px 10px 37px;
+                background: linear-gradient(110.27deg, #3DBAC7 4.3%, #6D88DE 103.93%);
+                box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+                position: relative;
+
+                button.nav-link {
+                    border: 0;
+                }
+
+                &::after {
+                    content: "SALE!";
+                    position: absolute;
+                    bottom: 6px;
+                    color: $white;
+                    font-weight: 600;
+                    font-size: 1rem;
+                    left: 38%;
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        .tab-pane {
+            .cta-card {
+                box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+                border-radius: 8px;
+                padding: 20px 11px;
+                height: 100%;
+                color: $white;
+                line-height: 1.125;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &.primary {
+                    background: linear-gradient(139.03deg, #3EBAC8 0%, #6691DB 103.49%);
+                }
+
+                &.tertiary {
+                    background: linear-gradient(105.01deg, #F37339 11.05%, #F3A339 99.74%);
+                }
+            }
+
+            .reserve-btn {
+                height: 66px;
+            }
+
+            .price {
+                position: relative;
+                display: inline-flex;
+                line-height: 1;
+
+                &::after {
+                    position: absolute;
+                    content: "INC. GST";
+                    font-size: 1rem;
+                    font-weight: 700;
+                    font-family: $font-archivo;
+                    right: -50%;
+                    top: 35%;
+                }
+            }
+        }
+    }
+
+    ul.terms-conditions {
+        padding-inline-start: 0;
+
+        li {
+            list-style: none;
+            font-weight: 300;
+            font-style: italic;
+            padding: 8px 0;
         }
     }
 }
