@@ -1,0 +1,124 @@
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: $font-body;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125rem;
+    line-height: 1;
+    font-weight: 600;
+    border: 0;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+    }
+
+    &:focus {
+        box-shadow: none;
+        outline: 0;
+    }
+}
+
+.btn-gradient {
+    background: linear-gradient(90deg, #F2B236 0%, #F26336 0.01%, #F2B236 81.23%);
+}
+
+.btn-shadow {
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.text-shadow {
+    text-shadow: 0 2px 5px rgba(0,0,0,0.25);
+}
+
+// Rounded buttons
+@for $i from 1 through 10 {
+    .rounded-#{$i} {
+        border-radius: #{$i}px;
+    }
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+//line-height
+.line-height-1 {
+    line-height: 1;
+}
+
+.line-height-2 {
+    line-height: 2;
+}
+
+//Go To Top
+#return-to-top {
+    position: fixed;
+    bottom: 95px;
+    right: 13px;
+    z-index: 9;
+    background: $secondary;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top img {
+    margin: 0;
+    position: relative;
+    left: 13px;
+    top: 10px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover img {
+    top: 4px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $secondary;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #022444;
+}

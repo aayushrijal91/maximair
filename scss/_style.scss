@@ -1,0 +1,90 @@
+@function imgUrl($file, $path: "background"){
+@return url("../images/" + $path + "/" + $file) no-repeat;
+}
+
+header {
+    .navigation-bar {
+        background: linear-gradient(90deg, $primary -0.99%, $secondary 100.62%);
+        box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.25);
+        position: relative;
+    }
+
+    .special-offers {
+        background: $light-grey;
+        padding: 19px 0 21px;
+    }
+
+    .divider {
+        padding: 8px 0;
+        background: $dark-grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .stick {
+            height: 3px;
+            width: 188px;
+            border-radius: 6px;
+            background-color: #8e8e8e;
+        }
+    }
+}
+
+section.banner {
+    padding: 41px 62px 55px;
+
+    .banner-wrapper {
+        background: imgUrl("banner.jpg") center;
+        background-size: cover;
+        position: relative;
+        padding: 185px 0 0 0;
+
+        .curtain-left,
+        .curtain-right {
+            position: absolute;
+            opacity: 0.5;
+            top: 0;
+        }
+
+        .curtain-left {
+            left: -55px;
+        }
+
+        .curtain-right {
+            right: -55px;
+        }
+
+        .vertical-divider {
+            height: 67.5px;
+            width: 2px;
+            background-color: $white;
+            box-shadow: 1px -3px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        .cta-1 {
+            background: linear-gradient(90.08deg, $primary -1.74%, $secondary 103.11%);
+        }
+
+        .cta-2 {
+            background: linear-gradient(90.08deg, #F2B336 -1.74%, #F26B36 103.11%);
+        }
+
+        .cta-1,
+        .cta-2 {
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+            border-radius: 7px;
+            padding: 18px 24px;
+            color: $white;
+        }
+    }
+}
+
+footer {
+    font-size: 0.875rem;
+    background-color: #221f1f;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.61rem;
+    }
+}
