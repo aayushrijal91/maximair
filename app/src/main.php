@@ -117,7 +117,7 @@
 </section>
 <div class="deal-strip"></div>
 
-<section class="services">
+<!-- <section class="services">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-11">
@@ -528,7 +528,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="mega-sale">
     <div class="container">
@@ -544,7 +544,7 @@
     </div>
 </section>
 
-<section class="services">
+<!-- <section class="services">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-11">
@@ -771,7 +771,7 @@
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
                             <div class="col-xl-6 text-center px-xl-5">
-                            <?= renderImg('daikin.png', 'logo') ?>
+                                <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
                                     <div class="col-xl-8">
@@ -836,7 +836,7 @@
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
                             <div class="col-xl-6 text-center px-xl-5">
-                            <?= renderImg('daikin.png', 'logo') ?>
+                                <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
                                     <div class="col-xl-8">
@@ -901,7 +901,7 @@
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
                             <div class="col-xl-6 text-center px-xl-5">
-                            <?= renderImg('daikin.png', 'logo') ?>
+                                <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
                                     <div class="col-xl-8">
@@ -965,7 +965,7 @@
     </div>
 
     <div class="container pt-5">
-    <div class="text-center fs-20 font-oswald fw-500 pb-3">Terms &amp; Conditions</div>
+        <div class="text-center fs-20 font-oswald fw-500 pb-3">Terms &amp; Conditions</div>
         <div class="row justify-content-center gx-xl-7">
             <div class="col-auto">
                 <ul class="terms-conditions">
@@ -983,7 +983,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="same-day-servicing">
     <div class="container">
@@ -999,7 +999,7 @@
 </section>
 <div class="same-day-servicing-strip"></div>
 
-<section class="services">
+<!-- <section class="services">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-11">
@@ -1226,7 +1226,7 @@
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
                             <div class="col-xl-6 text-center px-xl-5">
-                            <?= renderImg('daikin.png', 'logo') ?>
+                                <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
                                     <div class="col-xl-8">
@@ -1291,7 +1291,7 @@
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
                             <div class="col-xl-6 text-center px-xl-5">
-                            <?= renderImg('daikin.png', 'logo') ?>
+                                <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
                                     <div class="col-xl-8">
@@ -1356,7 +1356,7 @@
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
                             <div class="col-xl-6 text-center px-xl-5">
-                            <?= renderImg('daikin.png', 'logo') ?>
+                                <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
                                     <div class="col-xl-8">
@@ -1420,7 +1420,7 @@
     </div>
 
     <div class="container pt-5">
-    <div class="text-center fs-20 font-oswald fw-500 pb-3">Terms &amp; Conditions</div>
+        <div class="text-center fs-20 font-oswald fw-500 pb-3">Terms &amp; Conditions</div>
         <div class="row justify-content-center gx-xl-7">
             <div class="col-auto">
                 <ul class="terms-conditions">
@@ -1438,16 +1438,374 @@
             </div>
         </div>
     </div>
+</section> -->
+
+<section class="about">
+    <div class="container">
+        <div class="heading">
+            <?= renderImg('about-main.png', 'lib', 'w-100') ?>
+            <div class="content">
+                <div class="font-oswald text-uppercase fs-35 fw-500">Integrate Airtouch with your existing air conditioning System</div>
+                <a href="#form" class="btn d-inline-flex rounded-0 py-5 px-0 fs-20 fw-300 text-white">
+                    <span class="pe-2">Ask us how!</span>
+                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="13" cy="13" r="12.5" stroke="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.97824 10.3083C7.56715 10.7194 7.56715 11.3859 7.97824 11.797L12.2335 16.0522C12.2845 16.1666 12.3569 16.2738 12.4507 16.3676C12.6688 16.5857 12.9586 16.688 13.2442 16.6748C13.5297 16.688 13.8195 16.5857 14.0376 16.3676C14.1314 16.2738 14.2038 16.1666 14.2548 16.0522L18.5101 11.797C18.9212 11.3859 18.9212 10.7194 18.5101 10.3083C18.099 9.89721 17.4325 9.89721 17.0214 10.3083L13.2442 14.0855L9.46692 10.3083C9.05583 9.89721 8.38933 9.89721 7.97824 10.3083Z" fill="white" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        <div class="row pt-3">
+            <div class="col-lg-6">
+                <div class="advantages-card">
+                    <div class="font-oswald lh-12 fs-50 text-uppercase fw-500">Smart Air conditioning controller</div>
+                    <div class="row justify-content-center py-4">
+                        <div class="col-lg-7 fs-20 fw-300">
+                            What are the advantages of using a smart controller?
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <a href="#form" class="btn btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-md-5 mt-2">
+                                Read Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <?= renderImg("google-home.png", "lib") ?>
+            </div>
+        </div>
+    </div>
 </section>
 
+<!-- <section class="airtouch">
+    <div class="container">
+        <ul class="nav nav-pills mb-6" id="pills-tab-airtouch" role="tablist">
+            <li class="nav-item">
+                <button class="nav-link active" id="pills-airtouch-1-tab" data-bs-toggle="tab" data-bs-target="#pills-airtouch-1" type="button" role="tab" aria-controls="pills-airtouch-1" aria-selected="true">AirTouch 4</button>
+            </li>
+            <li class="nav-item new">
+                <button class="nav-link" id="pills-airtouch-2-tab" data-bs-toggle="tab" data-bs-target="#pills-airtouch-2" type="button" role="tab" aria-controls="pills-airtouch-2" aria-selected="false">AirTouch 5</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent-airtouch">
+            <div class="tab-pane fade show active" id="pills-airtouch-1" role="tabpanel" aria-labelledby="pills-airtouch-1-tab">
+                <div class="row align-items-center gx-xxl-7">
+                    <div class="col-xl">
+                        <?= renderImg("airtouch-4.png", "lib", "w-100") ?>
+                    </div>
+                    <div class="col-xl-4 text-center">
+                        <?= renderImg('airtouch.png', 'logo') ?>
+                        <div class="fw-700 fs-20 text-start py-4">AirTouch 4</div>
+                        <div class="row  justify-content-center g-4">
+                            <div class="col-4 h-inherit">
+                                <div class="cta-card primary">
+                                    <div class="fw-700">WiFi</div>
+                                </div>
+                            </div>
+                            <div class="col-4 h-inherit">
+                                <div class="cta-card primary">
+                                    <div>
+                                        Energy
+                                        <div class="fw-700">Efficient</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 h-inherit">
+                                <div class="cta-card primary">
+                                    <div>
+                                        <div class="fw-700">Compatible</div>
+                                        with major <br>brands
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 h-inherit">
+                                <div class="cta-card primary">
+                                    <div>
+                                        <div class="fw-700">Google<br>Home</div>
+                                        Compatible
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 h-inherit">
+                                <div class="cta-card primary">
+                                    <div>
+                                        <div class="fw-700">Alexa</div>
+                                        Compatible
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center pt-5 pb-4">
+                            <div>Supplied &amp; Installed starting from</div>
+                            <div class="font-anton fs-60 lh-1 py-2">$1,500</div>
+                        </div>
+                        <a href="#form" class="btn enquire-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                            Enquire Now
+                        </a>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-9">
+                    <div class="col-xl-9">
+                        <div class="text-center font-oswald fs-20">
+                            Adapt your home to your idea of comfort with the right temperature in the right place at the right time.
+                        </div>
+                        <div class="row justify-content-between gx-xxl-9 pt-6">
+                            <div class="col-lg-6 lh-2 fw-300">
+                                The all new AirTouch 4 is a smart air conditioning controller that is the fusion of comfort, energy efficiency, smart design and ease of use. AirTouch provides more than just cooling or heating but also becomes part of a lifestyle…an experience. The brand-new 8” HD touch screen console is bigger; and
+                            </div>
+                            <div class="col-lg-6 lh-2 fw-300">
+                                displays brighter, bolder colors and features a slider at the bottom of the screen to make it easier to adjust the setpoint temperature. It also makes it easy to adjust the conditioned air flow in 5% increments across 16 zones from 1, 2, 3, or 4 different ducted air conditioning units.
+                            </div>
+                        </div>
+
+                        <div class="text-center text-italic pt-8">Maxim Air installs and services AirTouch, the smartest Air control system in Hills District, North Shore, and all Sydney metropolitan areas.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-airtouch-2" role="tabpanel" aria-labelledby="pills-airtouch-2-tab">
+                <div class="row align-items-center gx-xxl-7">
+                    <div class="col-xl">
+                        <?= renderImg("airtouch-5.png", "lib", "w-100") ?>
+                    </div>
+                    <div class="col-xl-4 text-center">
+                        <?= renderImg('airtouch.png', 'logo') ?>
+                        <div class="fw-700 fs-20 text-start py-4">AirTouch 5</div>
+                        <div class="row  justify-content-center g-4">
+                            <div class="col-4 h-inherit">
+                                <div class="cta-card primary">
+                                    <div class="fw-700">WiFi</div>
+                                </div>
+                            </div>
+                            <div class="col-4 h-inherit">
+                                <div class="cta-card primary">
+                                    <div>
+                                        Energy
+                                        <div class="fw-700">Efficient</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 h-inherit">
+                                <div class="cta-card primary">
+                                    <div>
+                                        <div class="fw-700">Compatible</div>
+                                        with major <br>brands
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 h-inherit">
+                                <div class="cta-card primary">
+                                    <div>
+                                        <div class="fw-700">Google<br>Home</div>
+                                        Compatible
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 h-inherit">
+                                <div class="cta-card primary">
+                                    <div>
+                                        <div class="fw-700">Alexa</div>
+                                        Compatible
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center pt-5 pb-4">
+                            <div>Supplied &amp; Installed starting from</div>
+                            <div class="font-anton fs-60 lh-1 py-2">$1,900</div>
+                        </div>
+                        <a href="#form" class="btn enquire-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                            Enquire Now
+                        </a>
+                    </div>
+                </div>
+                <div class="row justify-content-center pt-8 pb-5">
+                    <div class="col-xl-9">
+                        <div class="row">
+                            <div class="col-lg-6 fs-20 fw-600">Save Energy, Save Money</div>
+                            <div class="col-lg-6 fs-300">With smart zoning, reduce the size of the air conditioner you need and save on running costs.</div>
+                        </div>
+                    </div>
+                </div>
+                <?= renderImg('airtouch-5-plans.png', 'lib', 'w-100') ?>
+                <div class="row justify-content-center mt-n6">
+                    <div class="col-xl-9">
+                        <div class="row">
+                            <div class="col-lg-5 font-oswald fs-20">
+                                Adapt your home to your idea of comfort with the right temperature in the right place at the right time.
+                            </div>
+                        </div>
+                        <div class="row justify-content-between gx-xxl-9 pt-7">
+                            <div class="col-lg-6 lh-2 fw-300">
+                                The all new AirTouch 5 is a smart air conditioning controller that is the fusion of comfort, energy efficiency, smart design and ease of use. AirTouch provides more than just cooling or heating but also becomes part of a lifestyle…an experience. The brand-new 8” HD touch screen console is bigger; and
+                            </div>
+                            <div class="col-lg-6 lh-2 fw-300">
+                                displays brighter, bolder colors and features a slider at the bottom of the screen to make it easier to adjust the setpoint temperature. It also makes it easy to adjust the conditioned air flow in 5% increments across 16 zones from 1, 2, 3, or 4 different ducted air conditioning units.
+                            </div>
+                        </div>
+
+                        <div class="text-center text-italic pt-8">Maxim Air installs and services AirTouch, the smartest Air control system in Hills District, North Shore, and all Sydney metropolitan areas.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section class="form" id="form">
+    <div class="title">
+        <div class="container">
+            <div class="hero_heading fs-50">Get Your Free quote now!</div>
+            <div class="pt-4">Simply fill in your information below and we will get back to you ASAP.</div>
+        </div>
+    </div>
+    <div class="form-main">
+        <div class="container">
+            <div class="fs-35 font-oswald fw-500 text-uppercase heading">Your Contact Information</div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+            <div class="col-xl-10">
+                <div id="testimonials-slider" class="testimonials-slider">
+                    <div class="testimonial">
+                        <?= renderImg('stars.png', 'lib') ?>
+                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Deepanjan Basu</div>
+                        <div class="fw-300">
+                            The best in business....the most professional air-conditioning business in Sydney. Absolutely clean and super efficient team. Thanks Araan and his super team. They installed a new AC unit and relocated my old unit in another room. Yeah! Now my whole apartment has got AC. The job site was cleaned and the gyprock was repaired all in just 1 day.
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <?= renderImg('stars.png', 'lib') ?>
+                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Robert Shi</div>
+                        <div class="fw-300">
+                            Stephen and his team have done a fantastic job. Right from the initial quoting stage all the way to job completion, everything has been handled professionally with attention to details. We are extremely happy with the result and would recommend their service to anyone.
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <?= renderImg('stars.png', 'lib') ?>
+                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Hakan Han</div>
+                        <div class="fw-300">
+                            We had our ducted AC replaced by MaximAir and they did an excellent job. Stephen conducted a site visit, inspected our ducts and provided us with a good, detailed explanation of the options. We selected an airtouch 4 system with 8 zones, all individually temperature controlled and we are really happy with it...
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <?= renderImg('stars.png', 'lib') ?>
+                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Suzanne Meyers</div>
+                        <div class="fw-300">
+                            He wants them to say 3 days ago, 5 days ago, a week ago, 2 weeks ago and a month ago.
+                            Noel did a great job. Prompt professional service. Our damaged poly tank was welded up in a jiffy and ready to go straight away.
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <?= renderImg('stars.png', 'lib') ?>
+                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Shannon Beatty</div>
+                        <div class="fw-300">
+                            Noel came out to look at what I thought was a leak in my water tank. He quickly discovered that the leak was actually from a crack in a fitting, on the part of the fitting that screws into the tank. At my request he removed the fitting and capped off the tank at that outlet, so my tank is now leak-free. He was only at my place for 10 minutes so didn't even charge me a call-out fee! Very happy to recommend Noel.
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <?= renderImg('stars.png', 'lib') ?>
+                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Catherine Gillespie</div>
+                        <div class="fw-300">
+                            Noel carried out a welding repair to our poly rainwater tank. He kept us informed as to his availability and arrived at the time provided to us. We found him to be extremely professional and offered us sound advice. We would not hesitate in recommending him for this service.
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <?= renderImg('stars.png', 'lib') ?>
+                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Shane Langham</div>
+                        <div class="fw-300">
+                            When you want a job done right the first time call a professional like Noel. Noel has the experience that you are after to tell you how it is and the best way forward. My poly water tank has never looked so good (other then when it was new) Thanks for a job well done Noel. I will be calling you again if I have trouble with my other tank.
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <?= renderImg('stars.png', 'lib') ?>
+                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Lloyd Anderson</div>
+                        <div class="fw-300">
+                            The "Self Supporting" roof of our 5,000 gallon poly tank collapsed and I feared that I would have replace it. Access to the tank's location was difficult as far as replacement is concerned and this could have cost a lot. Noel took on the job and while the repair was not easy and took a fair while, he got the job done and at a reasonable cost. Noel is very good at his craft and I highly recommend him.
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <?= renderImg('stars.png', 'lib') ?>
+                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Helena Lewis</div>
+                        <div class="fw-300">
+                            Noel was knowledgeable and friendly. Got the job done without any fuss and at a reasonable price. Would happily recommend him to others.
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <?= renderImg('stars.png', 'lib') ?>
+                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Des Craven</div>
+                        <div class="fw-300">
+                            Rang Mr Fix It Water Tank Service as a repair to my water tank carried out by Rapid Repairs was unsuccessful (see my review on Rapid Repairs). Noel from was punctual and did a thoroughly professional job on fixing the leak. If you’re looking for an expert I highly recommend him.
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <?= renderImg('stars.png', 'lib') ?>
+                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Sarah Wilson</div>
+                        <div class="fw-300">
+                            We recently asked Noel to look at a damaged water tank to advise on repairs. Unfortunately, the tank was too far gone, but Noel was extremely helpful advising on recommended replacement tank options. Thank you!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="map-wrapper">
+    <div class="container-fluid px-0">
+        <div class="row gx-0">
+            <div class="col-lg-6">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d424890.46550849814!2d150.9310532840454!3d-33.697127928567056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1666235691022!5m2!1sen!2sau" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="get-in-touch">
+                    <div>
+                        <div class="font-oswald fs-50 text-uppercase fw-500">Get in touch</div>
+                        <div class="pt-4">Servicing Sydney wide! Get your free quote today.</div>
+                        <table class="contact-table">
+                            <tbody>
+                                <tr class="py-5">
+                                    <td class="font-oswald fs-20 text-uppercase fw-500 pe-4">Phone No.</td>
+                                    <td><?= $phone_number ?></td>
+                                </tr>
+                                <tr class="py-3">
+                                    <td class="font-oswald fs-20 text-uppercase fw-500 pe-4">Email</td>
+                                    <td><?= $admin_email ?></td>
+                                </tr>
+                                <tr class="py-3">
+                                    <td class="font-oswald fs-20 text-uppercase fw-500 pe-4">Location</td>
+                                    <td>North Rocks, NSW</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href="#form" class="btn d-inline-flex btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-md-5 mt-2">
+                            Get your free quote
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="footer-top-strip"></div>
 <footer>
     <div class="container">
         <div class="row justify-content-center justify-content-lg-between align-items-center">
             <div class="col-auto">
-                <div class="row gx-2 gx-md-3 text-white justify-content-center">
+                <div class="row gx-2 gx-md-3 justify-content-center">
                     <div class="col-12 text-center pb-3 d-lg-none">
-                        <a href="https://www.aiims.com.au/like-our-work/" target="_blank">
-                            <?= renderImg("aiims.png", "logo") ?>
+                        <a href="./" target="_blank">
+                            <?= renderImg("footer-logo.png", "logo") ?>
                         </a>
                     </div>
                     <div class="col-auto text-center">Copyright <?= date('Y') ?></div>
@@ -1457,6 +1815,11 @@
                     <div class="col-auto text-center">All Rights Reserved
                     </div>
                 </div>
+            </div>
+            <div class="col-auto">
+                <a href="./" target="_blank">
+                    <?= renderImg("footer-logo.png", "logo") ?>
+                </a>
             </div>
             <div class="col-auto d-none d-lg-block">
                 <a href="https://www.aiims.com.au/like-our-work/" target="_blank">

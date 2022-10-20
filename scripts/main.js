@@ -10,6 +10,15 @@ document.querySelectorAll('a[href="#form"]').forEach(function (anchor) {
     });
 });
 
+$(() => {
+    $('#testimonials-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true
+    })
+});
+
 $(window).on('scroll', () => {
     if ($(this).scrollTop() >= 600) {
         $('#return-to-top').fadeIn(300);

@@ -91,12 +91,14 @@ section.deal {
     height: 17px;
     background: linear-gradient(90deg, #252c2c, #1b2222);
     filter: drop-shadow(9px 7px 13px rgba(0, 0, 0, 0.25));
+    position: relative;
 }
 
 section.services {
     background: $light;
     padding: 83px 0;
     box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.1);
+    position: relative;
 
     .nav.nav-pills {
         justify-content: center;
@@ -255,11 +257,213 @@ section.same-day-servicing {
     filter: drop-shadow(9px 7px 13px rgba(0, 0, 0, 0.25));
 }
 
-footer {
-    font-size: 0.875rem;
-    background-color: #221f1f;
+section.about {
+    background: imgUrl("about.png") left center, linear-gradient(146.44deg, #3FB9C8 11.16%, #6B89DD 100.78%);
+    background-size: contain;
+    padding-top: 58px;
 
-    @include media-breakpoint-down(sm) {
-        font-size: 0.61rem;
+    .heading {
+        position: relative;
+
+        .content {
+            position: absolute;
+            right: 0;
+            color: $white;
+            top: 1rem;
+            max-width: 363px;
+        }
     }
+
+    .advantages-card {
+        border-radius: 10px;
+        border: 3px solid $white;
+        padding: 36px 42px;
+        text-align: center;
+        color: $white;
+    }
+}
+
+section.airtouch {
+    background: $light;
+    padding: 83px 0;
+    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.1);
+    position: relative;
+
+    .nav.nav-pills {
+        justify-content: center;
+        gap: 28px;
+
+        li.nav-item {
+            padding: 10px 0;
+
+            button.nav-link {
+                border: 1.5px solid #858787;
+                background: $light;
+                border-radius: 12px;
+                font-size: 1.25rem;
+                height: 57px;
+                width: 167px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #585858;
+                font-weight: 500;
+
+                &.active {
+                    color: $white;
+                    background: linear-gradient(90deg, #F2B236 0%, #F26336 0.01%, #F2B236 81.23%);
+                    border: 0;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 1rem;
+                    height: 40px;
+                }
+            }
+
+            &.new {
+                border-radius: 18px;
+                padding: 10px 10px 37px;
+                background: linear-gradient(110.27deg, $primary 4.3%, $secondary 103.93%);
+                box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+                position: relative;
+
+                button.nav-link {
+                    border: 0;
+                }
+
+                &::after {
+                    content: "NEW!";
+                    position: absolute;
+                    bottom: 6px;
+                    color: $white;
+                    font-weight: 600;
+                    font-size: 1rem;
+                    left: 38%;
+                }
+            }
+
+        }
+    }
+
+    .tab-content {
+        .tab-pane {
+            .cta-card {
+                box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+                border-radius: 8px;
+                padding: 20px 11px;
+                height: 100%;
+                color: $white;
+                line-height: 1.125;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &.primary {
+                    background: linear-gradient(139.03deg, $primary 0%, $secondary 103.49%);
+                }
+            }
+
+            .enquire-btn {
+                height: 66px;
+            }
+        }
+    }
+
+    ul.terms-conditions {
+        padding-inline-start: 0;
+        margin-bottom: 0;
+
+        li {
+            list-style: none;
+            font-weight: 300;
+            font-style: italic;
+            padding: 8px 0;
+        }
+    }
+}
+
+section.form {
+    .title {
+        text-align: center;
+        padding: 68px 0;
+
+        .hero_heading {
+            font-family: $font-oswald;
+            font-weight: 700;
+            line-height: 1;
+            text-transform: uppercase;
+            background: linear-gradient(90.05deg, #F4723A 19.02%, #F4A33A 83.15%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+    }
+
+    .form-main {
+        border-bottom: 8px solid $primary;
+        padding: 79px 0 63px;
+
+        .heading {
+            color: #8e8e8e;
+        }
+    }
+}
+
+section.testimonials {
+    padding: 136px 0 106px;
+
+    .testimonials-slider {
+        .slick-track {
+            display: flex;
+        }
+
+        .slick-slide {
+            height: inherit;
+            background: linear-gradient(180deg, #3DBAC7 0%, #6C8BDE 100%);
+            border-radius: 7px;
+            padding: 99px 51px 31px 41px;
+            color: $white;
+            margin: 0 16px;
+        }
+    }
+}
+
+section.map-wrapper {
+    .map {
+        iframe {
+            width: 100%;
+            min-height: 711px;
+            margin-bottom: -7px;
+        }
+    }
+
+    .get-in-touch {
+        background: imgUrl("about.png") left center, linear-gradient(113.21deg, $primary 2.91%, #6D88DE 99.84%);
+        box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.1);
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        color: $white;
+        height: 100%;
+        padding: 20px 96px;
+
+        table.contact-table {
+            border-collapse: separate;
+            border-spacing: 0 17px;
+            margin: 80px 0;
+        }
+    }
+}
+
+.footer-top-strip {
+    background: linear-gradient(90deg, #6D88DE 13.67%, #54A3D2 54.69%, #3DBAC7 100.96%);
+    height: 8px;
+}
+
+footer {
+    font-size: 1rem;
+    background-color: #eeeeee;
+    padding: 24px 0;
 }

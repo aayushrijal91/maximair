@@ -99,6 +99,7 @@ $spacers: map-merge((0: 0,
 
 $border-radius:               .25rem !default;
 $border-radius-pill:          50rem !default;
+$enable-negative-margins: true;
 
 $utilities: () !default;
 $utilities: map-merge((
