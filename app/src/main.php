@@ -1663,9 +1663,55 @@
         </div>
     </div>
     <div class="form-main">
-        <div class="container">
-            <div class="fs-35 font-oswald fw-500 text-uppercase heading">Your Contact Information</div>
-        </div>
+        <form action="./src/form" method="POST">
+            <div class="container">
+                <div class="fs-35 font-oswald fw-500 text-uppercase heading">Your Contact Information</div>
+                <div class="row justify-content-xl-between gy-xl-6">
+                    <div class="col-lg-6 col-xxl-5">
+                        <div class="form-border"><input type="text" class="form-control" placeholder="Your name" name="name" required></div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-5">
+                        <div class="form-border"><input type="tel" class="form-control" placeholder="Phone no." name="phone" required></div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-5">
+                        <div class="form-border"><input type="email" class="form-control" placeholder="Email Address" name="email" required></div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-5">
+                        <div class="form-border"><input type="text" class="form-control" placeholder="Street Address" name="address" required></div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-8">
+            <div class="container">
+                <div class="row justify-content-xl-between gy-xl-6">
+                    <div class="col-lg-6 col-xxl-5">
+                        <input type="text" class="form-control" placeholder="Your name" name="name" required>
+                        <select name="service" class="form-control form-select" requried>
+                            <option value="" selected disabled>Select Service</option>
+                            <option>Multi Head Split System Air Conditioners</option>
+                            <option>Split System Air Conditioners</option>
+                            <option>Ducted Air Conditioning Installation</option>
+                            <option>Ducted Gas Heating Systems</option>
+                            <option>Smart Air Conditioning Controller</option>
+                        </select>
+                        <div class="row gx-2">
+                            <div class="col-lg-1">
+                                <div class="underscore bg-tertiary"></div>
+                            </div>
+                            <div class="col">
+                                <div class="underscore bg-primary"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xxl-5">
+                        <textarea name="comment" placeholder="Additional information" class="form-control" rows="5"></textarea>
+                    </div>
+                    <div class="col-lg-6 col-xxl-5">
+                        <button type="submit" class="btn fw-500 fs-20 w-100 btn-tertiary text-white rounded-pill">Reserve Now</button>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
 </section>
 
@@ -1753,6 +1799,48 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row align-items-center pt-6 pb-5">
+            <div class="col-lg-5">
+                <div class="fs-50 font-oswald text-uppercase fw-500 lh-1">Rest assured, you’ve found the best.</div>
+            </div>
+            <div class="col">
+                <div class="row justify-content-center align-items-center pb-3">
+                    <div class="col-auto">
+                        <div class="row align-items-center g-2">
+                            <div class="col-auto"><?= renderImg('google.png', 'logo') ?></div>
+                            <div class="col">
+                                <?= renderImg('stars.png', 'icons') ?>
+                                <div class="font-oswald text-uppercase text-shadow fs-27 fw-800">4.9 stars</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="vertical-divider"></div>
+                    </div>
+                    <div class="col-auto text-shadow text-uppercase fs-27 fw-500"><span class="fw-700">125+</span> Reviews</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="fw-300 fs-18">If you don’t believe us, believe the hundreds of happy customer Maxim has serviced!</div>
+            </div>
+        </div>
+        <div class="row align-items-center pt-5">
+            <div class="col-12 col-md-auto">
+                <a href="#form" class="btn btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-md-5">
+                    Get your free quote
+                </a>
+            </div>
+            <div class="col-12 col-md-auto">
+                <a href="tel:<?= $phone_number ?>" class="btn btn-white btn-shadow rounded-pill text-primary fs-20 py-3 px-md-4">
+                    <?= renderImg("phone.png", "icons", "pe-3") ?><?= $phone_number ?>
+                </a>
             </div>
         </div>
     </div>

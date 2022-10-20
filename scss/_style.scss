@@ -387,6 +387,7 @@ section.form {
     .title {
         text-align: center;
         padding: 68px 0;
+        background-color: $light-grey;
 
         .hero_heading {
             font-family: $font-oswald;
@@ -402,17 +403,77 @@ section.form {
     }
 
     .form-main {
-        border-bottom: 8px solid $primary;
+        border-top: 8px solid $primary;
         padding: 79px 0 63px;
+        background: $white;
 
         .heading {
             color: #8e8e8e;
+        }
+
+        form {
+            .form-border {
+                position: relative;
+                
+                &::before {
+                    position: absolute;
+                    height: 5px;
+                    width: 10%;
+                    background: $tertiary;
+                    content: "";
+                    left: 0;
+                    bottom: 0;
+                    z-index: 9;
+                    border-radius: 50rem;
+                }
+
+                &::after {
+                    position: absolute;
+                    height: 5px;
+                    width: 88%;
+                    background: $primary;
+                    content: "";
+                    right: 0;
+                    bottom: 0;
+                    z-index: 9;
+                    border-radius: 50rem;
+                }
+            }
+
+            .form-control {
+                border: 0;
+                font-size: 1.25rem;
+                padding: 11px 0;
+                position: relative;
+
+                &::placeholder {
+                    color: #858787;
+                }
+
+                &:focus {
+                    box-shadow: none;
+                    outline: none;
+                }
+            }
+
+            .underscore {
+                height: 4px;
+                border-radius: 3px;
+                width: 100%;
+            }
+
+            textarea {
+                border: 3px solid $primary !important;
+                border-radius: 11px !important;
+                padding: 25px 35px !important;
+            }
         }
     }
 }
 
 section.testimonials {
     padding: 136px 0 106px;
+    background: $light-grey;
 
     .testimonials-slider {
         .slick-track {
@@ -427,6 +488,13 @@ section.testimonials {
             color: $white;
             margin: 0 16px;
         }
+    }
+
+    .vertical-divider {
+        height: 67.5px;
+        width: 2px;
+        background-color: $dark;
+        box-shadow: 1px -3px 8px rgba(0, 0, 0, 0.5);
     }
 }
 
