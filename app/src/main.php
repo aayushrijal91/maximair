@@ -671,7 +671,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,720</div>
+                                    <div class="font-anton fs-60 price py-2">$1,739</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -736,7 +736,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,720</div>
+                                    <div class="font-anton fs-60 price py-2">$1,749</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -801,7 +801,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,720</div>
+                                    <div class="font-anton fs-60 price py-2">$1,949</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -866,7 +866,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,720</div>
+                                    <div class="font-anton fs-60 price py-2">$2,439</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -931,7 +931,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,720</div>
+                                    <div class="font-anton fs-60 price py-2">$2,639</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -996,7 +996,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,720</div>
+                                    <div class="font-anton fs-60 price py-2">$2,789</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -1126,7 +1126,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,600</div>
+                                    <div class="font-anton fs-60 price py-2">$1,739</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -1191,7 +1191,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,600</div>
+                                    <div class="font-anton fs-60 price py-2">$1,749</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -1256,7 +1256,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,600</div>
+                                    <div class="font-anton fs-60 price py-2">$1,949</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -1321,7 +1321,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,600</div>
+                                    <div class="font-anton fs-60 price py-2">$2,439</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -1386,7 +1386,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,600</div>
+                                    <div class="font-anton fs-60 price py-2">$2,639</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -1451,7 +1451,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,600</div>
+                                    <div class="font-anton fs-60 price py-2">$2,789</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
