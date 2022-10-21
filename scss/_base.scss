@@ -20,7 +20,7 @@ body {
     font-weight: 600;
     border: 0;
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(lg) {
         font-size: 0.875rem !important;
         height: 50px;
     }

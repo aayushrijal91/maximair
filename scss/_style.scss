@@ -59,7 +59,7 @@ header {
 section.banner {
     padding: 41px 62px 55px;
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(lg) {
         padding: 41px 8px;
     }
 
@@ -80,7 +80,7 @@ section.banner {
         .curtain-left {
             left: -55px;
 
-            @include media-breakpoint-down(sm) {
+            @include media-breakpoint-down(lg) {
                 left: 0;
             }
         }
@@ -88,7 +88,7 @@ section.banner {
         .curtain-right {
             right: -55px;
 
-            @include media-breakpoint-down(sm) {
+            @include media-breakpoint-down(lg) {
                 right: 0;
             }
         }
@@ -124,7 +124,7 @@ section.deal {
     background-size: contain;
     padding: 75px 0 55px;
 
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(lg) {
         background: linear-gradient(90.92deg, #414A4A 7.41%, #1E2525 40%);
     }
 }
@@ -146,6 +146,10 @@ section.services {
         justify-content: center;
         gap: 28px;
 
+        @include media-breakpoint-down(lg) {
+            gap: 15px;
+        }
+
         @include media-breakpoint-down(sm) {
             gap: 5px;
         }
@@ -166,8 +170,11 @@ section.services {
                 color: #585858;
                 font-weight: 500;
 
-                @include media-breakpoint-down(sm) {
+                @include media-breakpoint-down(lg) {
                     width: auto;
+                }
+                
+                @include media-breakpoint-down(sm) {
                     padding: 0.5rem 5px;
                 }
 
@@ -258,7 +265,7 @@ section.services {
                     right: -50%;
                     top: 35%;
 
-                    @include media-breakpoint-down(sm) {
+                    @include media-breakpoint-down(lg) {
                         right: -82%;
                     }
                 }
@@ -331,7 +338,7 @@ section.about {
         .content {
             color: $white;
 
-            @include media-breakpoint-up(md) {
+            @include media-breakpoint-up(lg) {
                 right: 0;
                 top: 1rem;
                 position: absolute;
@@ -572,6 +579,11 @@ section.testimonials {
             color: $white;
             margin: 0 16px;
 
+            @include media-breakpoint-down(lg) {
+                margin: 0 10px;
+                padding: 64px 24px 31px;
+            }
+
             @include media-breakpoint-down(sm) {
                 margin: 0 5px;
                 padding: 31px;
@@ -606,10 +618,14 @@ section.map-wrapper {
         height: 100%;
         padding: 20px 96px;
 
-        @include media-breakpoint-down(sm) {
-            padding: 48px 16px;
+        @include media-breakpoint-down(lg) {
+            padding: 48px 96px;
             background-size: cover;
             background-position-x: left;
+        }
+
+        @include media-breakpoint-down(sm) {
+            padding: 48px 16px;
         }
 
         table.contact-table {

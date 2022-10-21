@@ -27,16 +27,16 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-11">
-                    <div class="row justify-content-center justify-content-lg-between align-items-center py-4">
+                    <div class="row justify-content-center justify-content-md-between align-items-center py-4">
                         <div class="col-auto">
                             <a href="./">
                                 <?= renderImg("logo.png", "logo") ?>
                             </a>
                         </div>
                         <div class="col-12 col-md-auto pt-4 pt-md-0">
-                            <div class="row justify-content-center justify-content-lg-end align-items-center gx-2 gx-md-4">
+                            <div class="row justify-content-center justify-content-lg-end align-items-center gx-2 gx-lg-4">
                                 <div class="col-6 col-md-auto">
-                                    <a href="#form" class="btn btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-md-5">
+                                    <a href="#form" class="btn btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-md-4 px-lg-5">
                                         Get your free quote
                                     </a>
                                 </div>
@@ -55,21 +55,21 @@
     <div class="special-offers">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-6 col-xl-2 text-center">
+                <div class="col-6 col-md-3 col-xl-2 text-center">
                     <?= renderImg('ac-1.png', 'icons') ?>
                     <div class="font-oswald fs-16 text-uppercase">Split System Cora</div>
                 </div>
-                <div class="col-6 col-xl-2 text-center">
+                <div class="col-6 col-md-3 col-xl-2 text-center">
                     <?= renderImg('ac-1.png', 'icons') ?>
                     <div class="font-oswald fs-16 text-uppercase">Split System lite</div>
                     <div class="d-inline-flex btn-gradient text-white rounded-5 fs-14 px-3 py-1 mt-1">Specials Available!</div>
                 </div>
-                <div class="col-6 col-xl-2 text-center">
+                <div class="col-6 col-md-3 col-xl-2 text-center">
                     <?= renderImg('ac-2.png', 'icons') ?>
                     <div class="font-oswald fs-16 text-uppercase">Ducted System</div>
                     <div class="d-inline-flex btn-gradient text-white rounded-5 fs-14 px-3 py-1 mt-1">Specials Available!</div>
                 </div>
-                <div class="col-6 col-xl-2 text-center">
+                <div class="col-6 col-md-3 col-xl-2 text-center">
                     <?= renderImg('hand-phone.png', 'icons') ?>
                     <div class="font-oswald fs-16 text-uppercase">Smart Controller</div>
                 </div>
@@ -86,13 +86,13 @@
         <?= renderImg("curtain-left.png", 'lib', 'curtain-left') ?>
         <?= renderImg("curtain-right.png", 'lib', 'curtain-right') ?>
         <div class="container position-relative">
-            <div class="row">
-                <div class="col-auto h-inherit">
+            <div class="row justify-content-md-center">
+                <div class="col-auto">
                     <?= renderImg('sitting-girl.png', 'background') ?>
                 </div>
-                <div class="col-12 col-md h-inherit d-flex flex-column justify-content-between">
-                    <div class="font-oswald text-white text-uppercase fs-72 lh-111 text-center fw-500 text-shadow py-5 py-md-0"><?= renderImg('maximum.png', 'lib') ?> Comfort when you choose the best</div>
-                    <div class="row justify-content-center align-items-center pb-3 d-none d-md-flex">
+                <div class="col-12 col-12 d-flex flex-column justify-content-between">
+                    <div class="font-oswald text-white text-uppercase fs-72 lh-111 text-center fw-500 text-shadow py-5 py-lg-0"><?= renderImg('maximum.png', 'lib') ?><br class="d-lg-none"> Comfort when you choose the best</div>
+                    <div class="row justify-content-center align-items-center pb-3 d-none d-lg-flex">
                         <div class="col-auto">
                             <div class="row align-items-center g-2">
                                 <div class="col-auto"><?= renderImg('google.png', 'logo') ?></div>
@@ -108,19 +108,25 @@
                         <div class="col-auto text-shadow text-uppercase text-white fs-27 fw-500"><span class="fw-700">125+</span> Reviews</div>
                     </div>
                 </div>
-                <div class="col-md-3 h-inherit">
-                    <div class="cta-1">
-                        <div class="fs-35 font-oswald text-uppercase">Free Onsite quote</div>
-                        <div class="fs-20 lh-1 pt-3">By industry experts not just a sales rep!</div>
-                    </div>
-                    <div class="cta-2 mt-4">
-                        <div class="row algin-items-center">
-                            <div class="col-auto"><?= renderImg('turn-around-time.png', 'icons') ?></div>
-                            <div class="col fs-27 text-uppercase lh-1 fw-500"><span class="fw-800">Fast</span> Turn around times</div>
+                <div class="col-lg-3">
+                    <div class="row gy-4">
+                        <div class="col-12 col-md-6 col-xl-12">
+                            <div class="cta-1">
+                                <div class="fs-35 font-oswald text-uppercase">Free Onsite quote</div>
+                                <div class="fs-20 lh-1 pt-3">By industry experts not just a sales rep!</div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-12">
+                            <div class="cta-2 mt-xl-4 h-100 d-flex align-items-center">
+                                <div class="row algin-items-center">
+                                    <div class="col-auto"><?= renderImg('turn-around-time.png', 'icons') ?></div>
+                                    <div class="col fs-27 text-uppercase lh-1 fw-500"><span class="fw-800">Fast</span> Turn around times</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 d-md-none pt-4">
+                <div class="col-12 d-lg-none pt-4 pt-md-5">
                     <div class="row justify-content-center align-items-center pb-3 gx-2">
                         <div class="col-auto">
                             <div class="row align-items-center g-2">
@@ -134,7 +140,7 @@
                         <div class="col-auto">
                             <div class="vertical-divider"></div>
                         </div>
-                        <div class="col text-shadow text-uppercase text-white fs-27 fw-500"><span class="fw-700">125+</span> Reviews</div>
+                        <div class="col col-md-auto text-shadow text-uppercase text-white fs-27 fw-500"><span class="fw-700">125+</span> Reviews</div>
                     </div>
                 </div>
             </div>
@@ -184,11 +190,11 @@
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 col-xl-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-7">
@@ -206,8 +212,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -215,7 +221,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Inverter</div>
@@ -223,7 +229,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Weekly
@@ -231,7 +237,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -256,12 +262,12 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
-                        <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                        <div class="row justify-content-center align-items-center gy-5">
+                            <div class="col-md-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-7">
@@ -279,8 +285,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -288,7 +294,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Inverter</div>
@@ -296,7 +302,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Weekly
@@ -304,7 +310,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -352,8 +358,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -361,7 +367,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Inverter</div>
@@ -369,7 +375,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Weekly
@@ -377,7 +383,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -403,11 +409,11 @@
                     </div>
                     <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-7">
@@ -425,8 +431,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -434,7 +440,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Inverter</div>
@@ -442,7 +448,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Weekly
@@ -450,7 +456,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -476,11 +482,11 @@
                     </div>
                     <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="pills-5-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-7">
@@ -498,8 +504,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -507,7 +513,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Inverter</div>
@@ -515,7 +521,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Weekly
@@ -523,7 +529,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -576,7 +582,7 @@
 <section class="mega-sale">
     <div class="container">
         <div class="hero-heading">Mega Sale</div>
-        <div class="row justify-content-center text-jet-black align-items-center pt-5 pt-md-3 gy-4">
+        <div class="row justify-content-center text-jet-black align-items-center pt-5 pt-lg-3 gy-4">
             <div class="col-12 col-md-auto">
                 <div class="text-center text-md-end text-uppercase fs-30 lh-1 fw-500">Split system<br>Supplied &amp; Installed</div>
             </div>
@@ -614,11 +620,11 @@
                 <div class="tab-content" id="pills-tabContent-cora">
                     <div class="tab-pane fade show active" id="pills-cora-1" role="tabpanel" aria-labelledby="pills-cora-1-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FTXV20W</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
@@ -629,8 +635,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -638,7 +644,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Advanced</div>
@@ -646,7 +652,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Air
@@ -654,7 +660,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -679,11 +685,11 @@
                     </div>
                     <div class="tab-pane fade" id="pills-cora-2" role="tabpanel" aria-labelledby="pills-cora-2-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
@@ -694,8 +700,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -703,7 +709,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Advanced</div>
@@ -711,7 +717,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Air
@@ -719,7 +725,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -744,11 +750,11 @@
                     </div>
                     <div class="tab-pane fade" id="pills-cora-3" role="tabpanel" aria-labelledby="pills-cora-3-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
@@ -759,8 +765,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -768,7 +774,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Advanced</div>
@@ -776,7 +782,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Air
@@ -784,7 +790,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -809,11 +815,11 @@
                     </div>
                     <div class="tab-pane fade" id="pills-cora-4" role="tabpanel" aria-labelledby="pills-cora-4-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
@@ -824,8 +830,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -833,7 +839,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Advanced</div>
@@ -841,7 +847,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Air
@@ -849,7 +855,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -874,11 +880,11 @@
                     </div>
                     <div class="tab-pane fade" id="pills-cora-5" role="tabpanel" aria-labelledby="pills-cora-5-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
@@ -889,8 +895,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -898,7 +904,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Advanced</div>
@@ -906,7 +912,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Air
@@ -914,7 +920,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -939,11 +945,11 @@
                     </div>
                     <div class="tab-pane fade" id="pills-cora-6" role="tabpanel" aria-labelledby="pills-cora-6-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Cora</div>
@@ -954,8 +960,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -963,7 +969,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Advanced</div>
@@ -971,7 +977,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Air
@@ -979,7 +985,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -1069,11 +1075,11 @@
                 <div class="tab-content" id="pills-tabContent-lite">
                     <div class="tab-pane fade show active" id="pills-lite-1" role="tabpanel" aria-labelledby="pills-lite-1-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FTXV20W</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
@@ -1084,8 +1090,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -1093,7 +1099,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Advanced</div>
@@ -1101,7 +1107,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Air
@@ -1109,7 +1115,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -1134,11 +1140,11 @@
                     </div>
                     <div class="tab-pane fade" id="pills-lite-2" role="tabpanel" aria-labelledby="pills-lite-2-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
@@ -1149,8 +1155,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -1158,7 +1164,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Advanced</div>
@@ -1166,7 +1172,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Air
@@ -1174,7 +1180,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -1199,11 +1205,11 @@
                     </div>
                     <div class="tab-pane fade" id="pills-lite-3" role="tabpanel" aria-labelledby="pills-lite-3-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
@@ -1214,8 +1220,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -1223,7 +1229,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Advanced</div>
@@ -1231,7 +1237,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Air
@@ -1239,7 +1245,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -1264,11 +1270,11 @@
                     </div>
                     <div class="tab-pane fade" id="pills-lite-4" role="tabpanel" aria-labelledby="pills-lite-4-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
@@ -1279,8 +1285,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -1288,7 +1294,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Advanced</div>
@@ -1296,7 +1302,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Air
@@ -1304,7 +1310,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -1329,11 +1335,11 @@
                     </div>
                     <div class="tab-pane fade" id="pills-lite-5" role="tabpanel" aria-labelledby="pills-lite-5-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
@@ -1344,8 +1350,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -1353,7 +1359,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Advanced</div>
@@ -1361,7 +1367,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Air
@@ -1369,7 +1375,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -1394,11 +1400,11 @@
                     </div>
                     <div class="tab-pane fade" id="pills-lite-6" role="tabpanel" aria-labelledby="pills-lite-6-tab">
                         <div class="row align-items-center gy-5">
-                            <div class="col-xl-6">
+                            <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
-                            <div class="col-xl-6 text-center px-xl-5">
+                            <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
                                 <div class="row justify-content-center">
                                     <div class="col-12 text-center text-uppercase font-oswald fs-60 fw-800 lh-1 py-2">Lite</div>
@@ -1409,8 +1415,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row g-2 g-md-4 py-4 justify-content-center">
-                                    <div class="col h-inherit">
+                                <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fs-35 fw-700">5 YR</div>
@@ -1418,7 +1424,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 <div class="fw-700">Advanced</div>
@@ -1426,7 +1432,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col h-inherit">
+                                    <div class="col">
                                         <div class="cta-card primary">
                                             <div>
                                                 Air
@@ -1434,7 +1440,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto h-inherit">
+                                    <div class="col-auto">
                                         <div class="cta-card tertiary px-4">
                                             <div>
                                                 <div class="fw-700">No</div>
@@ -1488,7 +1494,7 @@
         <div class="heading">
             <?= renderImg('about-main.png', 'lib', 'w-100') ?>
             <div class="content">
-                <div class="font-oswald text-uppercase fs-35 fw-500 pt-4 pt-md-0">Integrate Airtouch with your existing air conditioning System</div>
+                <div class="font-oswald text-uppercase fs-35 fw-500 pt-4 pt-lg-0">Integrate Airtouch with your existing air conditioning System</div>
                 <a href="#form" class="btn d-inline-flex rounded-0 py-5 px-0 fs-20 fw-300 text-white">
                     <span class="pe-2">Ask us how!</span>
                     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1499,8 +1505,8 @@
             </div>
         </div>
 
-        <div class="row pt-3">
-            <div class="col-lg-6">
+        <div class="row pt-3 align-items-md-end">
+            <div class="col-md-6 pb-6">
                 <div class="advantages-card">
                     <div class="font-oswald lh-12 fs-50 text-uppercase fw-500">Smart Air conditioning controller</div>
                     <div class="row justify-content-center py-4">
@@ -1517,7 +1523,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-auto">
+            <div class="col-md col-lg-auto">
                 <?= renderImg("google-home.png", "lib") ?>
             </div>
         </div>
@@ -1543,13 +1549,13 @@
                     <div class="col-xl-4 text-center">
                         <?= renderImg('airtouch.png', 'logo') ?>
                         <div class="fw-700 fs-20 text-start py-4">AirTouch 4</div>
-                        <div class="row g-2 g-md-4 py-4 justify-content-center">
-                            <div class="col-4 h-inherit">
+                        <div class="row g-2 g-lg-4 py-4 justify-content-center">
+                            <div class="col-4 col-md col-lg-4">
                                 <div class="cta-card primary">
                                     <div class="fw-700">WiFi</div>
                                 </div>
                             </div>
-                            <div class="col-4 h-inherit">
+                            <div class="col-4 col-md col-lg-4">
                                 <div class="cta-card primary">
                                     <div>
                                         Energy
@@ -1557,7 +1563,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 h-inherit">
+                            <div class="col-4 col-md col-lg-4">
                                 <div class="cta-card primary">
                                     <div>
                                         <div class="fw-700">Compatible</div>
@@ -1565,7 +1571,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 h-inherit">
+                            <div class="col-4 col-md col-lg-4">
                                 <div class="cta-card primary">
                                     <div>
                                         <div class="fw-700">Google<br>Home</div>
@@ -1573,7 +1579,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 h-inherit">
+                            <div class="col-4 col-md col-lg-4">
                                 <div class="cta-card primary">
                                     <div>
                                         <div class="fw-700">Alexa</div>
@@ -1618,12 +1624,12 @@
                         <?= renderImg('airtouch.png', 'logo') ?>
                         <div class="fw-700 fs-20 text-start py-4">AirTouch 5</div>
                         <div class="row g-2 g-md-4 py-4 justify-content-center">
-                            <div class="col-4 h-inherit">
+                            <div class="col-4 col-md col-lg-4">
                                 <div class="cta-card primary">
                                     <div class="fw-700">WiFi</div>
                                 </div>
                             </div>
-                            <div class="col-4 h-inherit">
+                            <div class="col-4 col-md col-lg-4">
                                 <div class="cta-card primary">
                                     <div>
                                         Energy
@@ -1631,7 +1637,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 h-inherit">
+                            <div class="col-4 col-md col-lg-4">
                                 <div class="cta-card primary">
                                     <div>
                                         <div class="fw-700">Compatible</div>
@@ -1639,7 +1645,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 h-inherit">
+                            <div class="col-4 col-md col-lg-4">
                                 <div class="cta-card primary">
                                     <div>
                                         <div class="fw-700">Google<br>Home</div>
@@ -1647,7 +1653,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 h-inherit">
+                            <div class="col-4 col-md col-lg-4">
                                 <div class="cta-card primary">
                                     <div>
                                         <div class="fw-700">Alexa</div>
@@ -1674,7 +1680,7 @@
                     </div>
                 </div>
                 <?= renderImg('airtouch-5-plans.png', 'lib', 'w-100') ?>
-                <div class="row justify-content-center mt-4 mt-md-n6">
+                <div class="row justify-content-center mt-4 mt-xl-n6">
                     <div class="col-xl-9">
                         <div class="row">
                             <div class="col-lg-5 font-oswald fs-20">
@@ -1709,25 +1715,25 @@
         <form action="./src/form" method="POST">
             <div class="container">
                 <div class="fs-35 font-oswald fw-500 text-uppercase heading pb-5 pb-md-6">Your Contact Information</div>
-                <div class="row justify-content-xl-between gy-4 gy-xl-6">
-                    <div class="col-lg-6 col-xxl-5">
+                <div class="row justify-content-xl-between gy-4 gx-md-5 gy-md-5 gy-xl-6">
+                    <div class="col-md-6 col-xxl-5">
                         <div class="form-border"><input type="text" class="form-control" placeholder="Your name" name="name" required></div>
                     </div>
-                    <div class="col-lg-6 col-xxl-5">
+                    <div class="col-md-6 col-xxl-5">
                         <div class="form-border"><input type="tel" class="form-control" placeholder="Phone no." name="phone" required></div>
                     </div>
-                    <div class="col-lg-6 col-xxl-5">
+                    <div class="col-md-6 col-xxl-5">
                         <div class="form-border"><input type="email" class="form-control" placeholder="Email Address" name="email" required></div>
                     </div>
-                    <div class="col-lg-6 col-xxl-5">
+                    <div class="col-md-6 col-xxl-5">
                         <div class="form-border"><input type="text" class="form-control" placeholder="Street Address" name="address" required></div>
                     </div>
                 </div>
             </div>
-            <hr class="my-5 my-md-8">
+            <hr class="my-5 my-md-6 my-xl-8">
             <div class="container">
-                <div class="row justify-content-xl-between gy-4 gy-xl-6">
-                    <div class="col-lg-6 col-xxl-5">
+                <div class="row justify-content-xl-between gx-md-5 gy-4 gy-xl-6">
+                    <div class="col-md-6 col-xxl-5">
                         <div class="form-border">
                             <select name="service" class="form-control form-select" requried>
                                 <option value="" selected disabled>Select Service</option>
@@ -1739,13 +1745,13 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-xxl-5">
+                    <div class="col-md-6 col-xxl-5">
                         <textarea name="comment" placeholder="Additional information" class="form-control" rows="5"></textarea>
                     </div>
-                    <div class="col-lg-6 col-xxl-5">
+                    <div class="col-md-6 col-xxl-5">
                         <button type="submit" class="btn fw-500 fs-20 w-100 btn-tertiary text-white rounded-pill">Reserve Now</button>
                     </div>
-                    <div class="col-lg-6 col-xxl-5">
+                    <div class="col-md-6 col-xxl-5">
                         <div class="row align-items-center">
                             <div class="col-auto">
                                 <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1948,7 +1954,7 @@
                     <?= renderImg("footer-logo.png", "logo") ?>
                 </a>
             </div>
-            <div class="col-auto">
+            <div class="col-lg-auto">
                 <div class="row gx-2 gx-md-3 justify-content-center">
                     <div class="col-auto text-center">Copyright <?= date('Y') ?></div>
                     <div class="col-auto">|</div>
