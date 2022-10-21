@@ -1819,59 +1819,17 @@
                     </div>
                     <div class="testimonial">
                         <?= renderImg('stars.png', 'lib') ?>
+                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Jeff</div>
+                        <div class="fw-300">
+                        MaXim Air is great. My ducted aircorn was showing an erroe code after running for 10 mins or so each time. MaXim aircorn came , identified problem accurately, provide all options, no hard sale technique to push customer to replace the aircorn unit, On the contrary, they assess the problem and offered best and more economical way to resolve the issue...
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <?= renderImg('stars.png', 'lib') ?>
                         <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Suzanne Meyers</div>
                         <div class="fw-300">
                             He wants them to say 3 days ago, 5 days ago, a week ago, 2 weeks ago and a month ago.
                             Noel did a great job. Prompt professional service. Our damaged poly tank was welded up in a jiffy and ready to go straight away.
-                        </div>
-                    </div>
-                    <div class="testimonial">
-                        <?= renderImg('stars.png', 'lib') ?>
-                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Shannon Beatty</div>
-                        <div class="fw-300">
-                            Noel came out to look at what I thought was a leak in my water tank. He quickly discovered that the leak was actually from a crack in a fitting, on the part of the fitting that screws into the tank. At my request he removed the fitting and capped off the tank at that outlet, so my tank is now leak-free. He was only at my place for 10 minutes so didn't even charge me a call-out fee! Very happy to recommend Noel.
-                        </div>
-                    </div>
-                    <div class="testimonial">
-                        <?= renderImg('stars.png', 'lib') ?>
-                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Catherine Gillespie</div>
-                        <div class="fw-300">
-                            Noel carried out a welding repair to our poly rainwater tank. He kept us informed as to his availability and arrived at the time provided to us. We found him to be extremely professional and offered us sound advice. We would not hesitate in recommending him for this service.
-                        </div>
-                    </div>
-                    <div class="testimonial">
-                        <?= renderImg('stars.png', 'lib') ?>
-                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Shane Langham</div>
-                        <div class="fw-300">
-                            When you want a job done right the first time call a professional like Noel. Noel has the experience that you are after to tell you how it is and the best way forward. My poly water tank has never looked so good (other then when it was new) Thanks for a job well done Noel. I will be calling you again if I have trouble with my other tank.
-                        </div>
-                    </div>
-                    <div class="testimonial">
-                        <?= renderImg('stars.png', 'lib') ?>
-                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Lloyd Anderson</div>
-                        <div class="fw-300">
-                            The "Self Supporting" roof of our 5,000 gallon poly tank collapsed and I feared that I would have replace it. Access to the tank's location was difficult as far as replacement is concerned and this could have cost a lot. Noel took on the job and while the repair was not easy and took a fair while, he got the job done and at a reasonable cost. Noel is very good at his craft and I highly recommend him.
-                        </div>
-                    </div>
-                    <div class="testimonial">
-                        <?= renderImg('stars.png', 'lib') ?>
-                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Helena Lewis</div>
-                        <div class="fw-300">
-                            Noel was knowledgeable and friendly. Got the job done without any fuss and at a reasonable price. Would happily recommend him to others.
-                        </div>
-                    </div>
-                    <div class="testimonial">
-                        <?= renderImg('stars.png', 'lib') ?>
-                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Des Craven</div>
-                        <div class="fw-300">
-                            Rang Mr Fix It Water Tank Service as a repair to my water tank carried out by Rapid Repairs was unsuccessful (see my review on Rapid Repairs). Noel from was punctual and did a thoroughly professional job on fixing the leak. If you’re looking for an expert I highly recommend him.
-                        </div>
-                    </div>
-                    <div class="testimonial">
-                        <?= renderImg('stars.png', 'lib') ?>
-                        <div class="font-oswald fs-20 fw-600 pt-3 pb-4">Sarah Wilson</div>
-                        <div class="fw-300">
-                            We recently asked Noel to look at a damaged water tank to advise on repairs. Unfortunately, the tank was too far gone, but Noel was extremely helpful advising on recommended replacement tank options. Thank you!
                         </div>
                     </div>
                 </div>
