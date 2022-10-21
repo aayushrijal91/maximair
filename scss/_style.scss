@@ -10,12 +10,20 @@
             border-radius: 33px;
             padding: 29px 29px 101px;
 
+            @include media-breakpoint-down(md) {
+                
+            }
+
             .modal-header {
                 border: 0;
             }
 
             .modal-body {
                 padding: 0 93px;
+
+                @include media-breakpoint-down(sm) {
+                    padding: 0;
+                }
             }
 
             .modal-footer {

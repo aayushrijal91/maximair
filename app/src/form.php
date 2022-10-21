@@ -20,7 +20,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         $name = $_POST['name'];
         $phone = $_POST['phone'];
         $email = $_POST['email'];
-        $message = $_POST['message'];
+        $address = $_POST['address'];
+        $service = $_POST['service'];
+        $comment = $_POST['comment'];
 
         $message = '<!DOCTYPE html>
                 <html>

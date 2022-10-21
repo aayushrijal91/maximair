@@ -1505,7 +1505,7 @@
             </div>
         </div>
 
-        <div class="row pt-3 align-items-md-end">
+        <div class="row pt-3 align-items-md-end align-items-xl-start">
             <div class="col-md-6 col-lg-5 col-xl-6 pb-6 pb-xxl-0">
                 <div class="advantages-card">
                     <div class="font-oswald lh-12 fs-50 text-uppercase fw-500">Smart Air conditioning controller</div>
