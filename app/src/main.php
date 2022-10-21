@@ -33,16 +33,16 @@
                                 <?= renderImg("logo.png", "logo") ?>
                             </a>
                         </div>
-                        <div class="col-auto">
-                            <div class="row justify-content-center justify-content-lg-end align-items-center">
-                                <div class="col-12 col-md-auto">
+                        <div class="col-12 col-md-auto pt-4 pt-md-0">
+                            <div class="row justify-content-center justify-content-lg-end align-items-center gx-2 gx-md-4">
+                                <div class="col-6 col-md-auto">
                                     <a href="#form" class="btn btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-md-5">
                                         Get your free quote
                                     </a>
                                 </div>
-                                <div class="col-12 col-md-auto">
+                                <div class="col-6 col-md-auto">
                                     <a href="tel:<?= $phone_number ?>" class="btn btn-white btn-shadow rounded-pill text-primary fs-20 py-3 px-md-4">
-                                        <?= renderImg("phone.png", "icons", "pe-3") ?><?= $phone_number ?>
+                                        <?= renderImg("phone.png", "icons", "pe-1 pe-md-3") ?><?= $phone_number ?>
                                     </a>
                                 </div>
                             </div>
@@ -55,21 +55,21 @@
     <div class="special-offers">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-xl-2 text-center">
+                <div class="col-6 col-xl-2 text-center">
                     <?= renderImg('ac-1.png', 'icons') ?>
                     <div class="font-oswald fs-16 text-uppercase">Split System Cora</div>
                 </div>
-                <div class="col-xl-2 text-center">
+                <div class="col-6 col-xl-2 text-center">
                     <?= renderImg('ac-1.png', 'icons') ?>
                     <div class="font-oswald fs-16 text-uppercase">Split System lite</div>
                     <div class="d-inline-flex btn-gradient text-white rounded-5 fs-14 px-3 py-1 mt-1">Specials Available!</div>
                 </div>
-                <div class="col-xl-2 text-center">
+                <div class="col-6 col-xl-2 text-center">
                     <?= renderImg('ac-2.png', 'icons') ?>
                     <div class="font-oswald fs-16 text-uppercase">Ducted System</div>
                     <div class="d-inline-flex btn-gradient text-white rounded-5 fs-14 px-3 py-1 mt-1">Specials Available!</div>
                 </div>
-                <div class="col-xl-2 text-center">
+                <div class="col-6 col-xl-2 text-center">
                     <?= renderImg('hand-phone.png', 'icons') ?>
                     <div class="font-oswald fs-16 text-uppercase">Smart Controller</div>
                 </div>
@@ -90,9 +90,9 @@
                 <div class="col-auto h-inherit">
                     <?= renderImg('sitting-girl.png', 'background') ?>
                 </div>
-                <div class="col h-inherit d-flex flex-column justify-content-between">
-                    <div class="font-oswald text-white text-uppercase fs-72 lh-111 text-center fw-500 text-shadow"><?= renderImg('maximum.png', 'lib') ?> Comfort when you choose the best</div>
-                    <div class="row justify-content-center align-items-center pb-3">
+                <div class="col-12 col-md h-inherit d-flex flex-column justify-content-between">
+                    <div class="font-oswald text-white text-uppercase fs-72 lh-111 text-center fw-500 text-shadow py-5 py-md-0"><?= renderImg('maximum.png', 'lib') ?> Comfort when you choose the best</div>
+                    <div class="row justify-content-center align-items-center pb-3 d-none d-md-flex">
                         <div class="col-auto">
                             <div class="row align-items-center g-2">
                                 <div class="col-auto"><?= renderImg('google.png', 'logo') ?></div>
@@ -108,16 +108,33 @@
                         <div class="col-auto text-shadow text-uppercase text-white fs-27 fw-500"><span class="fw-700">125+</span> Reviews</div>
                     </div>
                 </div>
-                <div class="col-3 h-inherit">
+                <div class="col-md-3 h-inherit">
                     <div class="cta-1">
                         <div class="fs-35 font-oswald text-uppercase">Free Onsite quote</div>
                         <div class="fs-20 lh-1 pt-3">By industry experts not just a sales rep!</div>
                     </div>
                     <div class="cta-2 mt-4">
-                        <div class="row">
+                        <div class="row algin-items-center">
                             <div class="col-auto"><?= renderImg('turn-around-time.png', 'icons') ?></div>
                             <div class="col fs-27 text-uppercase lh-1 fw-500"><span class="fw-800">Fast</span> Turn around times</div>
                         </div>
+                    </div>
+                </div>
+                <div class="col-12 d-md-none pt-4">
+                    <div class="row justify-content-center align-items-center pb-3 gx-2">
+                        <div class="col-auto">
+                            <div class="row align-items-center g-2">
+                                <div class="col-auto"><?= renderImg('google.png', 'logo') ?></div>
+                                <div class="col">
+                                    <?= renderImg('stars.png', 'icons') ?>
+                                    <div class="font-oswald text-white text-uppercase text-shadow fs-27 fw-800">4.9 stars</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="vertical-divider"></div>
+                        </div>
+                        <div class="col text-shadow text-uppercase text-white fs-27 fw-500"><span class="fw-700">125+</span> Reviews</div>
                     </div>
                 </div>
             </div>
@@ -132,16 +149,18 @@
                 <div class="text-white font-oswald fs-20 text-uppercase">All split system air conditioner installs come with</div>
                 <div class="text-primary font-oswald fs-50 text-uppercase lh-12 fw-500 pt-1 pb-3">Free Yearly Service valued at <span class="text-white">$150</span></div>
                 <div class="text-white d-inline-flex text-uppercase font-oswald px-4 py-3 fw-700 fs-20 bordered border-primary rounded-4 mb-4">+ 5 Year Warranty</div>
-                <a href="#form" class="btn d-inline-flex btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-md-5 mt-2">
-                    Claim Deal Now
-                </a>
+                <div>
+                    <a href="#form" class="btn d-inline-flex btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-5 mt-2">
+                        Claim Deal Now
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </section>
 <div class="deal-strip"></div>
 
-<!-- <section class="services">
+<section class="services">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-11">
@@ -164,7 +183,7 @@
                 </ul>
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -178,16 +197,16 @@
                                             <div class="">7.1kW</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xl-6">
+                                            <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">5 x</span> Outlets</div>
                                             </div>
-                                            <div class="col-xl-6">
+                                            <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">2 x</span> Zones</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -228,7 +247,7 @@
 
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -237,7 +256,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -251,16 +270,16 @@
                                             <div class="">10kW</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xl-6">
+                                            <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">5 x</span> Outlets</div>
                                             </div>
-                                            <div class="col-xl-6">
+                                            <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">2 x</span> Zones</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -301,7 +320,7 @@
 
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -310,7 +329,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-3" role="tabpanel" aria-labelledby="pills-3-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -324,16 +343,16 @@
                                             <div class="">12.5kW</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xl-6">
+                                            <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">5 x</span> Outlets</div>
                                             </div>
-                                            <div class="col-xl-6">
+                                            <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">2 x</span> Zones</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -374,7 +393,7 @@
 
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -383,7 +402,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-4" role="tabpanel" aria-labelledby="pills-4-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -397,16 +416,16 @@
                                             <div class="">14kW</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xl-6">
+                                            <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">5 x</span> Outlets</div>
                                             </div>
-                                            <div class="col-xl-6">
+                                            <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">2 x</span> Zones</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -447,7 +466,7 @@
 
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -456,7 +475,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-5" role="tabpanel" aria-labelledby="pills-5-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -470,16 +489,16 @@
                                             <div class="">16kW</div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-xl-6">
+                                            <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">5 x</span> Outlets</div>
                                             </div>
-                                            <div class="col-xl-6">
+                                            <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">2 x</span> Zones</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -520,7 +539,7 @@
 
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -536,14 +555,14 @@
     <div class="container pt-5">
         <div class="text-center fs-20 font-oswald fw-500 pb-3">Terms &amp; Conditions</div>
         <div class="row justify-content-center gx-xl-5">
-            <div class="col-auto">
+            <div class="col-md-auto">
                 <ul class="terms-conditions">
                     <li>Single story home, pitch roof, gyprock ceiling</li>
                     <li>Outdoor unit positioned on PVS slab</li>
                     <li>Main power included</li>
                 </ul>
             </div>
-            <div class="col-auto">
+            <div class="col-md-auto">
                 <ul class="terms-conditions">
                     <li>5 years warranty on parts &amp; labour</li>
                     <li>No subcontractors used</li>
@@ -552,14 +571,14 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <section class="mega-sale">
     <div class="container">
         <div class="hero-heading">Mega Sale</div>
-        <div class="row justify-content-center text-jet-black align-items-center pt-3">
-            <div class="col-auto">
-                <div class="text-end text-uppercase fs-30 lh-1 fw-500">Split system<br>Supplied &amp; Installed</div>
+        <div class="row justify-content-center text-jet-black align-items-center pt-5 pt-md-3 gy-4">
+            <div class="col-12 col-md-auto">
+                <div class="text-center text-md-end text-uppercase fs-30 lh-1 fw-500">Split system<br>Supplied &amp; Installed</div>
             </div>
             <div class="col-auto">
                 <div class="fw-600 fs-81 lh-1 font-oswald">$1,600*</div>
@@ -568,7 +587,7 @@
     </div>
 </section>
 
-<!-- <section class="services">
+<section class="services">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-11">
@@ -594,7 +613,7 @@
                 </ul>
                 <div class="tab-content" id="pills-tabContent-cora">
                     <div class="tab-pane fade show active" id="pills-cora-1" role="tabpanel" aria-labelledby="pills-cora-1-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FTXV20W</div>
@@ -610,7 +629,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -650,7 +669,7 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -659,7 +678,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-cora-2" role="tabpanel" aria-labelledby="pills-cora-2-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -675,7 +694,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -715,7 +734,7 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -724,9 +743,9 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-cora-3" role="tabpanel" aria-labelledby="pills-cora-3-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
-                                <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
+                                <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
                             </div>
                             <div class="col-xl-6 text-center px-xl-5">
@@ -740,7 +759,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -780,7 +799,7 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -789,7 +808,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-cora-4" role="tabpanel" aria-labelledby="pills-cora-4-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -805,7 +824,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -845,7 +864,7 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -854,7 +873,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-cora-5" role="tabpanel" aria-labelledby="pills-cora-5-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -870,7 +889,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -910,7 +929,7 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -919,7 +938,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-cora-6" role="tabpanel" aria-labelledby="pills-cora-6-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -935,7 +954,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -975,7 +994,7 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -1007,7 +1026,7 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <section class="same-day-servicing">
     <div class="container">
@@ -1023,7 +1042,7 @@
 </section>
 <div class="same-day-servicing-strip"></div>
 
-<!-- <section class="services">
+<section class="services">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-11">
@@ -1049,7 +1068,7 @@
                 </ul>
                 <div class="tab-content" id="pills-tabContent-lite">
                     <div class="tab-pane fade show active" id="pills-lite-1" role="tabpanel" aria-labelledby="pills-lite-1-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FTXV20W</div>
@@ -1065,7 +1084,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -1105,7 +1124,7 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -1114,7 +1133,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-lite-2" role="tabpanel" aria-labelledby="pills-lite-2-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -1130,7 +1149,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -1170,7 +1189,7 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -1179,7 +1198,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-lite-3" role="tabpanel" aria-labelledby="pills-lite-3-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -1195,7 +1214,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -1235,7 +1254,7 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -1244,7 +1263,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-lite-4" role="tabpanel" aria-labelledby="pills-lite-4-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -1260,7 +1279,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -1300,7 +1319,7 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -1309,7 +1328,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-lite-5" role="tabpanel" aria-labelledby="pills-lite-5-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -1325,7 +1344,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -1365,7 +1384,7 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -1374,7 +1393,7 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-lite-6" role="tabpanel" aria-labelledby="pills-lite-6-tab">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
                                 <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
@@ -1390,7 +1409,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row py-4">
+                                <div class="row g-2 g-md-4 py-4 justify-content-center">
                                     <div class="col h-inherit">
                                         <div class="cta-card primary">
                                             <div>
@@ -1430,7 +1449,7 @@
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
-                                        <a href="#form" class="btn reserve-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                        <a href="#form" class="btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
                                             Reserve Now
                                         </a>
                                     </div>
@@ -1462,14 +1481,14 @@
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <section class="about">
     <div class="container">
         <div class="heading">
             <?= renderImg('about-main.png', 'lib', 'w-100') ?>
             <div class="content">
-                <div class="font-oswald text-uppercase fs-35 fw-500">Integrate Airtouch with your existing air conditioning System</div>
+                <div class="font-oswald text-uppercase fs-35 fw-500 pt-4 pt-md-0">Integrate Airtouch with your existing air conditioning System</div>
                 <a href="#form" class="btn d-inline-flex rounded-0 py-5 px-0 fs-20 fw-300 text-white">
                     <span class="pe-2">Ask us how!</span>
                     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1505,7 +1524,7 @@
     </div>
 </section>
 
-<!-- <section class="airtouch">
+<section class="airtouch">
     <div class="container">
         <ul class="nav nav-pills mb-6" id="pills-tab-airtouch" role="tablist">
             <li class="nav-item">
@@ -1517,14 +1536,14 @@
         </ul>
         <div class="tab-content" id="pills-tabContent-airtouch">
             <div class="tab-pane fade show active" id="pills-airtouch-1" role="tabpanel" aria-labelledby="pills-airtouch-1-tab">
-                <div class="row align-items-center gx-xxl-7">
+                <div class="row align-items-center gy-5 gx-xxl-7">
                     <div class="col-xl">
                         <?= renderImg("airtouch-4.png", "lib", "w-100") ?>
                     </div>
                     <div class="col-xl-4 text-center">
                         <?= renderImg('airtouch.png', 'logo') ?>
                         <div class="fw-700 fs-20 text-start py-4">AirTouch 4</div>
-                        <div class="row  justify-content-center g-4">
+                        <div class="row g-2 g-md-4 py-4 justify-content-center">
                             <div class="col-4 h-inherit">
                                 <div class="cta-card primary">
                                     <div class="fw-700">WiFi</div>
@@ -1577,7 +1596,7 @@
                         <div class="text-center font-oswald fs-20">
                             Adapt your home to your idea of comfort with the right temperature in the right place at the right time.
                         </div>
-                        <div class="row justify-content-between gx-xxl-9 pt-6">
+                        <div class="row justify-content-between gx-xxl-9 pt-5 pt-md-6">
                             <div class="col-lg-6 lh-2 fw-300">
                                 The all new AirTouch 4 is a smart air conditioning controller that is the fusion of comfort, energy efficiency, smart design and ease of use. AirTouch provides more than just cooling or heating but also becomes part of a lifestyle…an experience. The brand-new 8” HD touch screen console is bigger; and
                             </div>
@@ -1586,19 +1605,19 @@
                             </div>
                         </div>
 
-                        <div class="text-center text-italic pt-8">Maxim Air installs and services AirTouch, the smartest Air control system in Hills District, North Shore, and all Sydney metropolitan areas.</div>
+                        <div class="text-center text-italic pt-5 pt-md-8">Maxim Air installs and services AirTouch, the smartest Air control system in Hills District, North Shore, and all Sydney metropolitan areas.</div>
                     </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-airtouch-2" role="tabpanel" aria-labelledby="pills-airtouch-2-tab">
-                <div class="row align-items-center gx-xxl-7">
+                <div class="row align-items-center gy-5 gx-xxl-7">
                     <div class="col-xl">
                         <?= renderImg("airtouch-5.png", "lib", "w-100") ?>
                     </div>
                     <div class="col-xl-4 text-center">
                         <?= renderImg('airtouch.png', 'logo') ?>
                         <div class="fw-700 fs-20 text-start py-4">AirTouch 5</div>
-                        <div class="row  justify-content-center g-4">
+                        <div class="row g-2 g-md-4 py-4 justify-content-center">
                             <div class="col-4 h-inherit">
                                 <div class="cta-card primary">
                                     <div class="fw-700">WiFi</div>
@@ -1655,14 +1674,14 @@
                     </div>
                 </div>
                 <?= renderImg('airtouch-5-plans.png', 'lib', 'w-100') ?>
-                <div class="row justify-content-center mt-n6">
+                <div class="row justify-content-center mt-4 mt-md-n6">
                     <div class="col-xl-9">
                         <div class="row">
                             <div class="col-lg-5 font-oswald fs-20">
                                 Adapt your home to your idea of comfort with the right temperature in the right place at the right time.
                             </div>
                         </div>
-                        <div class="row justify-content-between gx-xxl-9 pt-7">
+                        <div class="row justify-content-between gx-xxl-9 pt-4 pt-md-7">
                             <div class="col-lg-6 lh-2 fw-300">
                                 The all new AirTouch 5 is a smart air conditioning controller that is the fusion of comfort, energy efficiency, smart design and ease of use. AirTouch provides more than just cooling or heating but also becomes part of a lifestyle…an experience. The brand-new 8” HD touch screen console is bigger; and
                             </div>
@@ -1671,13 +1690,13 @@
                             </div>
                         </div>
 
-                        <div class="text-center text-italic pt-8">Maxim Air installs and services AirTouch, the smartest Air control system in Hills District, North Shore, and all Sydney metropolitan areas.</div>
+                        <div class="text-center text-italic pt-5 pt-md-8">Maxim Air installs and services AirTouch, the smartest Air control system in Hills District, North Shore, and all Sydney metropolitan areas.</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <section class="form" id="form">
     <div class="title">
@@ -1689,8 +1708,8 @@
     <div class="form-main">
         <form action="./src/form" method="POST">
             <div class="container">
-                <div class="fs-35 font-oswald fw-500 text-uppercase heading">Your Contact Information</div>
-                <div class="row justify-content-xl-between gy-xl-6">
+                <div class="fs-35 font-oswald fw-500 text-uppercase heading pb-5 pb-md-6">Your Contact Information</div>
+                <div class="row justify-content-xl-between gy-4 gy-xl-6">
                     <div class="col-lg-6 col-xxl-5">
                         <div class="form-border"><input type="text" class="form-control" placeholder="Your name" name="name" required></div>
                     </div>
@@ -1705,25 +1724,19 @@
                     </div>
                 </div>
             </div>
-            <hr class="my-8">
+            <hr class="my-5 my-md-8">
             <div class="container">
-                <div class="row justify-content-xl-between gy-xl-6">
+                <div class="row justify-content-xl-between gy-4 gy-xl-6">
                     <div class="col-lg-6 col-xxl-5">
-                        <select name="service" class="form-control form-select" requried>
-                            <option value="" selected disabled>Select Service</option>
-                            <option>Multi Head Split System Air Conditioners</option>
-                            <option>Split System Air Conditioners</option>
-                            <option>Ducted Air Conditioning Installation</option>
-                            <option>Ducted Gas Heating Systems</option>
-                            <option>Smart Air Conditioning Controller</option>
-                        </select>
-                        <div class="row gx-2">
-                            <div class="col-lg-1">
-                                <div class="underscore bg-tertiary"></div>
-                            </div>
-                            <div class="col">
-                                <div class="underscore bg-primary"></div>
-                            </div>
+                        <div class="form-border">
+                            <select name="service" class="form-control form-select" requried>
+                                <option value="" selected disabled>Select Service</option>
+                                <option>Multi Head Split System Air Conditioners</option>
+                                <option>Split System Air Conditioners</option>
+                                <option>Ducted Air Conditioning Installation</option>
+                                <option>Ducted Gas Heating Systems</option>
+                                <option>Smart Air Conditioning Controller</option>
+                            </select>
                         </div>
                     </div>
                     <div class="col-lg-6 col-xxl-5">
@@ -1845,12 +1858,12 @@
     </div>
 
     <div class="container">
-        <div class="row align-items-center pt-6 pb-5">
+        <div class="row align-items-center pt-6 pb-5 gy-5">
             <div class="col-lg-5">
                 <div class="fs-50 font-oswald text-uppercase fw-500 lh-1">Rest assured, you’ve found the best.</div>
             </div>
             <div class="col">
-                <div class="row justify-content-center align-items-center pb-3">
+                <div class="row justify-content-center align-items-center gx-3 gx-md-4 pb-3">
                     <div class="col-auto">
                         <div class="row align-items-center g-2">
                             <div class="col-auto"><?= renderImg('google.png', 'logo') ?></div>
@@ -1863,7 +1876,7 @@
                     <div class="col-auto">
                         <div class="vertical-divider"></div>
                     </div>
-                    <div class="col-auto text-shadow text-uppercase fs-27 fw-500"><span class="fw-700">125+</span> Reviews</div>
+                    <div class="col col-md-auto text-shadow text-uppercase fs-27 fw-500"><span class="fw-700">125+</span> Reviews</div>
                 </div>
             </div>
         </div>
@@ -1872,13 +1885,13 @@
                 <div class="fw-300 fs-18">If you don’t believe us, believe the hundreds of happy customer Maxim has serviced!</div>
             </div>
         </div>
-        <div class="row align-items-center pt-5">
-            <div class="col-12 col-md-auto">
+        <div class="row align-items-center pt-5 gx-2 gx-md-4">
+            <div class="col-6 col-md-auto">
                 <a href="#form" class="btn btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-md-5">
                     Get your free quote
                 </a>
             </div>
-            <div class="col-12 col-md-auto">
+            <div class="col-6 col-md-auto">
                 <a href="tel:<?= $phone_number ?>" class="btn btn-white btn-shadow rounded-pill text-primary fs-20 py-3 px-md-4">
                     <?= renderImg("phone.png", "icons", "pe-3") ?><?= $phone_number ?>
                 </a>
@@ -1916,7 +1929,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <a href="#form" class="btn d-inline-flex btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-md-5 mt-2">
+                        <a href="#form" class="btn d-inline-flex btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-5 mt-2">
                             Get your free quote
                         </a>
                     </div>
@@ -1929,14 +1942,14 @@
 <div class="footer-top-strip"></div>
 <footer>
     <div class="container">
-        <div class="row justify-content-center justify-content-lg-between align-items-center">
+        <div class="row justify-content-center justify-content-lg-between align-items-center gy-4">
+            <div class="col-12 text-center d-lg-none">
+                <a href="./" target="_blank">
+                    <?= renderImg("footer-logo.png", "logo") ?>
+                </a>
+            </div>
             <div class="col-auto">
                 <div class="row gx-2 gx-md-3 justify-content-center">
-                    <div class="col-12 text-center pb-3 d-lg-none">
-                        <a href="./" target="_blank">
-                            <?= renderImg("footer-logo.png", "logo") ?>
-                        </a>
-                    </div>
                     <div class="col-auto text-center">Copyright <?= date('Y') ?></div>
                     <div class="col-auto">|</div>
                     <div class="col-auto text-center"><?= $site ?></div>
@@ -1945,12 +1958,12 @@
                     </div>
                 </div>
             </div>
-            <div class="col-auto">
+            <div class="col-auto d-none d-lg-block">
                 <a href="./" target="_blank">
                     <?= renderImg("footer-logo.png", "logo") ?>
                 </a>
             </div>
-            <div class="col-auto d-none d-lg-block">
+            <div class="col-auto">
                 <a href="https://www.aiims.com.au/like-our-work/" target="_blank">
                     <?= renderImg("aiims.png", "logo") ?>
                 </a>

@@ -15,7 +15,15 @@ $(() => {
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: false,
-        autoplay: true
+        autoplay: true,
+        responsive: [
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
     })
 });
 
