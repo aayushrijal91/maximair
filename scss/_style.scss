@@ -59,7 +59,7 @@ header {
 section.banner {
     padding: 41px 62px 55px;
 
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down(xxl) {
         padding: 41px 8px;
     }
 
@@ -80,7 +80,7 @@ section.banner {
         .curtain-left {
             left: -55px;
 
-            @include media-breakpoint-down(lg) {
+            @include media-breakpoint-down(xxl) {
                 left: 0;
             }
         }
@@ -88,7 +88,7 @@ section.banner {
         .curtain-right {
             right: -55px;
 
-            @include media-breakpoint-down(lg) {
+            @include media-breakpoint-down(xxl) {
                 right: 0;
             }
         }
@@ -317,6 +317,7 @@ section.mega-sale {
 
 section.same-day-servicing {
     background: imgUrl('same-day-servicing.png') right center, linear-gradient(90.92deg, $tertiary 7.41%, $quartinary 50.2%);
+    background-size: contain;
     padding: 73px 0 55px;
     color: $white;
 }
@@ -579,7 +580,7 @@ section.testimonials {
             color: $white;
             margin: 0 16px;
 
-            @include media-breakpoint-down(lg) {
+            @include media-breakpoint-down(xxl) {
                 margin: 0 10px;
                 padding: 64px 24px 31px;
             }

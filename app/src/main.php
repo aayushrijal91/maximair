@@ -87,10 +87,10 @@
         <?= renderImg("curtain-right.png", 'lib', 'curtain-right') ?>
         <div class="container position-relative">
             <div class="row justify-content-md-center">
-                <div class="col-auto">
+                <div class="col-auto col-xl-3 col-xxl-auto">
                     <?= renderImg('sitting-girl.png', 'background') ?>
                 </div>
-                <div class="col-12 col-12 d-flex flex-column justify-content-between">
+                <div class="col-12 col-lg d-flex flex-column justify-content-between">
                     <div class="font-oswald text-white text-uppercase fs-72 lh-111 text-center fw-500 text-shadow py-5 py-lg-0"><?= renderImg('maximum.png', 'lib') ?><br class="d-lg-none"> Comfort when you choose the best</div>
                     <div class="row justify-content-center align-items-center pb-3 d-none d-lg-flex">
                         <div class="col-auto">
@@ -1714,58 +1714,66 @@
     <div class="form-main">
         <form action="./src/form" method="POST">
             <div class="container">
-                <div class="fs-35 font-oswald fw-500 text-uppercase heading pb-5 pb-md-6">Your Contact Information</div>
-                <div class="row justify-content-xl-between gy-4 gx-md-5 gy-md-5 gy-xl-6">
-                    <div class="col-md-6 col-xxl-5">
-                        <div class="form-border"><input type="text" class="form-control" placeholder="Your name" name="name" required></div>
-                    </div>
-                    <div class="col-md-6 col-xxl-5">
-                        <div class="form-border"><input type="tel" class="form-control" placeholder="Phone no." name="phone" required></div>
-                    </div>
-                    <div class="col-md-6 col-xxl-5">
-                        <div class="form-border"><input type="email" class="form-control" placeholder="Email Address" name="email" required></div>
-                    </div>
-                    <div class="col-md-6 col-xxl-5">
-                        <div class="form-border"><input type="text" class="form-control" placeholder="Street Address" name="address" required></div>
+                <div class="row justify-content-center">
+                    <div class="col-xxl-11">
+                        <div class="fs-35 font-oswald fw-500 text-uppercase heading pb-5 pb-md-6">Your Contact Information</div>
+                        <div class="row justify-content-xl-between gy-4 gx-md-5 gy-md-5 gy-xl-6">
+                            <div class="col-md-6 col-xxl-5">
+                                <div class="form-border"><input type="text" class="form-control" placeholder="Your name" name="name" required></div>
+                            </div>
+                            <div class="col-md-6 col-xxl-5">
+                                <div class="form-border"><input type="tel" class="form-control" placeholder="Phone no." name="phone" required></div>
+                            </div>
+                            <div class="col-md-6 col-xxl-5">
+                                <div class="form-border"><input type="email" class="form-control" placeholder="Email Address" name="email" required></div>
+                            </div>
+                            <div class="col-md-6 col-xxl-5">
+                                <div class="form-border"><input type="text" class="form-control" placeholder="Street Address" name="address" required></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <hr class="my-5 my-md-6 my-xl-8">
             <div class="container">
-                <div class="row justify-content-xl-between gx-md-5 gy-4 gy-xl-6">
-                    <div class="col-md-6 col-xxl-5">
-                        <div class="form-border">
-                            <select name="service" class="form-control form-select" requried>
-                                <option value="" selected disabled>Select Service</option>
-                                <option>Multi Head Split System Air Conditioners</option>
-                                <option>Split System Air Conditioners</option>
-                                <option>Ducted Air Conditioning Installation</option>
-                                <option>Ducted Gas Heating Systems</option>
-                                <option>Smart Air Conditioning Controller</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xxl-5">
-                        <textarea name="comment" placeholder="Additional information" class="form-control" rows="5"></textarea>
-                    </div>
-                    <div class="col-md-6 col-xxl-5">
-                        <button type="submit" class="btn fw-500 fs-20 w-100 btn-tertiary text-white rounded-pill">Reserve Now</button>
-                    </div>
-                    <div class="col-md-6 col-xxl-5">
-                        <div class="row align-items-center">
-                            <div class="col-auto">
-                                <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="26.5" cy="26.5" r="26.5" fill="#D9D9D9" />
-                                    <path d="M19.2857 35C19.9958 35 20.5714 34.4404 20.5714 33.75C20.5714 33.0596 19.9958 32.5 19.2857 32.5C18.5756 32.5 18 33.0596 18 33.75C18 34.4404 18.5756 35 19.2857 35Z" fill="#F26336" />
-                                    <path d="M24.4286 35C25.1387 35 25.7143 34.4404 25.7143 33.75C25.7143 33.0596 25.1387 32.5 24.4286 32.5C23.7185 32.5 23.1429 33.0596 23.1429 33.75C23.1429 34.4404 23.7185 35 24.4286 35Z" fill="#F26336" />
-                                    <path d="M29.5714 35C30.2815 35 30.8571 34.4404 30.8571 33.75C30.8571 33.0596 30.2815 32.5 29.5714 32.5C28.8613 32.5 28.2857 33.0596 28.2857 33.75C28.2857 34.4404 28.8613 35 29.5714 35Z" fill="#F26336" />
-                                    <path d="M34.7143 35C35.4244 35 36 34.4404 36 33.75C36 33.0596 35.4244 32.5 34.7143 32.5C34.0042 32.5 33.4286 33.0596 33.4286 33.75C33.4286 34.4404 34.0042 35 34.7143 35Z" fill="#F26336" />
-                                    <path d="M32.1429 21.25H30.8571V18.75C30.8571 17.7554 30.4508 16.8016 29.7274 16.0983C29.0041 15.3951 28.023 15 27 15C25.977 15 24.9959 15.3951 24.2726 16.0983C23.5492 16.8016 23.1429 17.7554 23.1429 18.75V21.25H21.8571C21.5162 21.25 21.1891 21.3817 20.948 21.6161C20.7069 21.8505 20.5714 22.1685 20.5714 22.5V28.75C20.5714 29.0815 20.7069 29.3995 20.948 29.6339C21.1891 29.8683 21.5162 30 21.8571 30H32.1429C32.4838 30 32.8109 29.8683 33.052 29.6339C33.2931 29.3995 33.4286 29.0815 33.4286 28.75V22.5C33.4286 22.1685 33.2931 21.8505 33.052 21.6161C32.8109 21.3817 32.4838 21.25 32.1429 21.25ZM25.7143 21.25V18.75C25.7143 18.4185 25.8497 18.1005 26.0909 17.8661C26.332 17.6317 26.659 17.5 27 17.5C27.341 17.5 27.668 17.6317 27.9091 17.8661C28.1503 18.1005 28.2857 18.4185 28.2857 18.75V21.25H25.7143Z" fill="#F26336" />
-                                </svg>
+                <div class="row justify-content-center">
+                    <div class="col-xxl-11">
+                        <div class="row justify-content-xl-between gx-md-5 gy-4 gy-xl-6">
+                            <div class="col-md-6 col-xxl-5">
+                                <div class="form-border">
+                                    <select name="service" class="form-control form-select" requried>
+                                        <option value="" selected disabled>Select Service</option>
+                                        <option>Multi Head Split System Air Conditioners</option>
+                                        <option>Split System Air Conditioners</option>
+                                        <option>Ducted Air Conditioning Installation</option>
+                                        <option>Ducted Gas Heating Systems</option>
+                                        <option>Smart Air Conditioning Controller</option>
+                                    </select>
+                                </div>
                             </div>
-                            <div class="col">
-                                <div class="font-oswald text-uppercase fw-500 text-medium-grey">Privacy &amp; Security protection</div>
-                                <div class="text-medium-grey">All information provided will be kept 100% private & secure</div>
+                            <div class="col-md-6 col-xxl-5">
+                                <textarea name="comment" placeholder="Additional information" class="form-control" rows="5"></textarea>
+                            </div>
+                            <div class="col-md-6 col-xxl-5">
+                                <button type="submit" class="btn fw-500 fs-20 w-100 btn-tertiary text-white rounded-pill">Reserve Now</button>
+                            </div>
+                            <div class="col-md-6 col-xxl-5">
+                                <div class="row align-items-center">
+                                    <div class="col-auto">
+                                        <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle cx="26.5" cy="26.5" r="26.5" fill="#D9D9D9" />
+                                            <path d="M19.2857 35C19.9958 35 20.5714 34.4404 20.5714 33.75C20.5714 33.0596 19.9958 32.5 19.2857 32.5C18.5756 32.5 18 33.0596 18 33.75C18 34.4404 18.5756 35 19.2857 35Z" fill="#F26336" />
+                                            <path d="M24.4286 35C25.1387 35 25.7143 34.4404 25.7143 33.75C25.7143 33.0596 25.1387 32.5 24.4286 32.5C23.7185 32.5 23.1429 33.0596 23.1429 33.75C23.1429 34.4404 23.7185 35 24.4286 35Z" fill="#F26336" />
+                                            <path d="M29.5714 35C30.2815 35 30.8571 34.4404 30.8571 33.75C30.8571 33.0596 30.2815 32.5 29.5714 32.5C28.8613 32.5 28.2857 33.0596 28.2857 33.75C28.2857 34.4404 28.8613 35 29.5714 35Z" fill="#F26336" />
+                                            <path d="M34.7143 35C35.4244 35 36 34.4404 36 33.75C36 33.0596 35.4244 32.5 34.7143 32.5C34.0042 32.5 33.4286 33.0596 33.4286 33.75C33.4286 34.4404 34.0042 35 34.7143 35Z" fill="#F26336" />
+                                            <path d="M32.1429 21.25H30.8571V18.75C30.8571 17.7554 30.4508 16.8016 29.7274 16.0983C29.0041 15.3951 28.023 15 27 15C25.977 15 24.9959 15.3951 24.2726 16.0983C23.5492 16.8016 23.1429 17.7554 23.1429 18.75V21.25H21.8571C21.5162 21.25 21.1891 21.3817 20.948 21.6161C20.7069 21.8505 20.5714 22.1685 20.5714 22.5V28.75C20.5714 29.0815 20.7069 29.3995 20.948 29.6339C21.1891 29.8683 21.5162 30 21.8571 30H32.1429C32.4838 30 32.8109 29.8683 33.052 29.6339C33.2931 29.3995 33.4286 29.0815 33.4286 28.75V22.5C33.4286 22.1685 33.2931 21.8505 33.052 21.6161C32.8109 21.3817 32.4838 21.25 32.1429 21.25ZM25.7143 21.25V18.75C25.7143 18.4185 25.8497 18.1005 26.0909 17.8661C26.332 17.6317 26.659 17.5 27 17.5C27.341 17.5 27.668 17.6317 27.9091 17.8661C28.1503 18.1005 28.2857 18.4185 28.2857 18.75V21.25H25.7143Z" fill="#F26336" />
+                                        </svg>
+                                    </div>
+                                    <div class="col">
+                                        <div class="font-oswald text-uppercase fw-500 text-medium-grey">Privacy &amp; Security protection</div>
+                                        <div class="text-medium-grey">All information provided will be kept 100% private & secure</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1778,7 +1786,7 @@
 <section class="testimonials">
     <div class="container-fluid">
         <div class="row justify-content-end">
-            <div class="col-xl-10">
+            <div class="col-xxl-10">
                 <div id="testimonials-slider" class="testimonials-slider">
                     <div class="testimonial">
                         <?= renderImg('stars.png', 'lib') ?>
@@ -1864,43 +1872,47 @@
     </div>
 
     <div class="container">
-        <div class="row align-items-center pt-6 pb-5 gy-5">
-            <div class="col-lg-5">
-                <div class="fs-50 font-oswald text-uppercase fw-500 lh-1">Rest assured, you’ve found the best.</div>
-            </div>
-            <div class="col">
-                <div class="row justify-content-center align-items-center gx-3 gx-md-4 pb-3">
-                    <div class="col-auto">
-                        <div class="row align-items-center g-2">
-                            <div class="col-auto"><?= renderImg('google.png', 'logo') ?></div>
-                            <div class="col">
-                                <?= renderImg('stars.png', 'icons') ?>
-                                <div class="font-oswald text-uppercase text-shadow fs-27 fw-800">4.9 stars</div>
+        <div class="row justify-content-center">
+            <div class="col-xxl-11">
+                <div class="row align-items-center pt-6 pb-5 gy-5">
+                    <div class="col-lg-5">
+                        <div class="fs-50 font-oswald text-uppercase fw-500 lh-1">Rest assured, you’ve found the best.</div>
+                    </div>
+                    <div class="col">
+                        <div class="row justify-content-center align-items-center gx-3 gx-md-4 pb-3">
+                            <div class="col-auto">
+                                <div class="row align-items-center g-2">
+                                    <div class="col-auto"><?= renderImg('google.png', 'logo') ?></div>
+                                    <div class="col">
+                                        <?= renderImg('stars.png', 'icons') ?>
+                                        <div class="font-oswald text-uppercase text-shadow fs-27 fw-800">4.9 stars</div>
+                                    </div>
+                                </div>
                             </div>
+                            <div class="col-auto">
+                                <div class="vertical-divider"></div>
+                            </div>
+                            <div class="col col-md-auto text-shadow text-uppercase fs-27 fw-500"><span class="fw-700">125+</span> Reviews</div>
                         </div>
                     </div>
-                    <div class="col-auto">
-                        <div class="vertical-divider"></div>
-                    </div>
-                    <div class="col col-md-auto text-shadow text-uppercase fs-27 fw-500"><span class="fw-700">125+</span> Reviews</div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="fw-300 fs-18">If you don’t believe us, believe the hundreds of happy customer Maxim has serviced!</div>
-            </div>
-        </div>
-        <div class="row align-items-center pt-5 gx-2 gx-md-4">
-            <div class="col-6 col-md-auto">
-                <a href="#form" class="btn btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-md-5">
-                    Get your free quote
-                </a>
-            </div>
-            <div class="col-6 col-md-auto">
-                <a href="tel:<?= $phone_number ?>" class="btn btn-white btn-shadow rounded-pill text-primary fs-20 py-3 px-md-4">
-                    <?= renderImg("phone.png", "icons", "pe-3") ?><?= $phone_number ?>
-                </a>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="fw-300 fs-18">If you don’t believe us, believe the hundreds of happy customer Maxim has serviced!</div>
+                    </div>
+                </div>
+                <div class="row align-items-center pt-5 gx-2 gx-md-4">
+                    <div class="col-6 col-md-auto">
+                        <a href="#form" class="btn btn-gradient btn-shadow rounded-pill text-white fs-20 py-3 px-md-5">
+                            Get your free quote
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-auto">
+                        <a href="tel:<?= $phone_number ?>" class="btn btn-white btn-shadow rounded-pill text-primary fs-20 py-3 px-md-4">
+                            <?= renderImg("phone.png", "icons", "pe-3") ?><?= $phone_number ?>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
