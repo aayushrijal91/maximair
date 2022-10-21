@@ -90,9 +90,9 @@
                 <div class="col-auto col-xl-3 col-xxl-auto">
                     <?= renderImg('sitting-girl.png', 'background') ?>
                 </div>
-                <div class="col-12 col-lg d-flex flex-column justify-content-between">
-                    <div class="font-oswald text-white text-uppercase fs-72 lh-111 text-center fw-500 text-shadow py-5 py-lg-0"><?= renderImg('maximum.png', 'lib') ?><br class="d-lg-none"> Comfort when you choose the best</div>
-                    <div class="row justify-content-center align-items-center pb-3 d-none d-lg-flex">
+                <div class="col-12 col-xl d-flex flex-column justify-content-between">
+                    <div class="font-oswald text-white text-uppercase fs-72 lh-111 text-center fw-500 text-shadow py-5 py-xl-0"><?= renderImg('maximum.png', 'lib') ?><br class="d-lg-none"> Comfort when you choose the best</div>
+                    <div class="row justify-content-center align-items-center pb-3 d-none d-xl-flex">
                         <div class="col-auto">
                             <div class="row align-items-center g-2">
                                 <div class="col-auto"><?= renderImg('google.png', 'logo') ?></div>
@@ -108,7 +108,7 @@
                         <div class="col-auto text-shadow text-uppercase text-white fs-27 fw-500"><span class="fw-700">125+</span> Reviews</div>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-8 col-xl-3">
                     <div class="row gy-4">
                         <div class="col-12 col-md-6 col-xl-12">
                             <div class="cta-1">
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 d-lg-none pt-4 pt-md-5">
+                <div class="col-12 d-xl-none pt-4 pt-md-5">
                     <div class="row justify-content-center align-items-center pb-3 gx-2">
                         <div class="col-auto">
                             <div class="row align-items-center g-2">
@@ -1494,7 +1494,7 @@
         <div class="heading">
             <?= renderImg('about-main.png', 'lib', 'w-100') ?>
             <div class="content">
-                <div class="font-oswald text-uppercase fs-35 fw-500 pt-4 pt-lg-0">Integrate Airtouch with your existing air conditioning System</div>
+                <div class="font-oswald text-uppercase fs-35 fw-500 pt-4 pt-lg-5 pt-xl-0">Integrate Airtouch with your existing air conditioning System</div>
                 <a href="#form" class="btn d-inline-flex rounded-0 py-5 px-0 fs-20 fw-300 text-white">
                     <span class="pe-2">Ask us how!</span>
                     <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1506,16 +1506,16 @@
         </div>
 
         <div class="row pt-3 align-items-md-end">
-            <div class="col-md-6 pb-6">
+            <div class="col-md-6 col-lg-5 col-xl-6 pb-6 pb-xxl-0">
                 <div class="advantages-card">
                     <div class="font-oswald lh-12 fs-50 text-uppercase fw-500">Smart Air conditioning controller</div>
                     <div class="row justify-content-center py-4">
-                        <div class="col-lg-7 fs-20 fw-300">
+                        <div class="col-xl-7 fs-20 fw-300">
                             What are the advantages of using a smart controller?
                         </div>
                     </div>
                     <div class="row justify-content-center">
-                        <div class="col-lg-6">
+                        <div class="col-xl-6">
                             <button type="button" class="btn w-100 btn-gradient btn-shadow rounded-pill text-white fs-20 p-2 mt-2" data-bs-toggle="modal" data-bs-target="#smartAirConditioner">
                                 Read Now
                             </button>
@@ -1523,7 +1523,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md col-lg-auto">
+            <div class="col-md col-xl-auto">
                 <?= renderImg("google-home.png", "lib") ?>
             </div>
         </div>
@@ -1550,12 +1550,12 @@
                         <?= renderImg('airtouch.png', 'logo') ?>
                         <div class="fw-700 fs-20 text-start py-4">AirTouch 4</div>
                         <div class="row g-2 g-lg-4 py-4 justify-content-center">
-                            <div class="col-4 col-md col-lg-4">
+                            <div class="col-4 col-md col-xl-4">
                                 <div class="cta-card primary">
                                     <div class="fw-700">WiFi</div>
                                 </div>
                             </div>
-                            <div class="col-4 col-md col-lg-4">
+                            <div class="col-4 col-md col-xl-4">
                                 <div class="cta-card primary">
                                     <div>
                                         Energy
@@ -1563,7 +1563,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 col-md col-lg-4">
+                            <div class="col-4 col-md col-xl-4">
                                 <div class="cta-card primary">
                                     <div>
                                         <div class="fw-700">Compatible</div>
@@ -1571,7 +1571,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 col-md col-lg-4">
+                            <div class="col-4 col-md col-xl-4">
                                 <div class="cta-card primary">
                                     <div>
                                         <div class="fw-700">Google<br>Home</div>
@@ -1579,7 +1579,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 col-md col-lg-4">
+                            <div class="col-4 col-md col-xl-4">
                                 <div class="cta-card primary">
                                     <div>
                                         <div class="fw-700">Alexa</div>
@@ -1592,9 +1592,13 @@
                             <div>Supplied &amp; Installed starting from</div>
                             <div class="font-anton fs-60 lh-1 py-2">$1,500</div>
                         </div>
-                        <a href="#form" class="btn enquire-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
-                            Enquire Now
-                        </a>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <a href="#form" class="btn enquire-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                    Enquire Now
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row justify-content-center mt-9">
@@ -1624,12 +1628,12 @@
                         <?= renderImg('airtouch.png', 'logo') ?>
                         <div class="fw-700 fs-20 text-start py-4">AirTouch 5</div>
                         <div class="row g-2 g-md-4 py-4 justify-content-center">
-                            <div class="col-4 col-md col-lg-4">
+                            <div class="col-4 col-md col-xl-4">
                                 <div class="cta-card primary">
                                     <div class="fw-700">WiFi</div>
                                 </div>
                             </div>
-                            <div class="col-4 col-md col-lg-4">
+                            <div class="col-4 col-md col-xl-4">
                                 <div class="cta-card primary">
                                     <div>
                                         Energy
@@ -1637,7 +1641,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 col-md col-lg-4">
+                            <div class="col-4 col-md col-xl-4">
                                 <div class="cta-card primary">
                                     <div>
                                         <div class="fw-700">Compatible</div>
@@ -1645,7 +1649,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 col-md col-lg-4">
+                            <div class="col-4 col-md col-xl-4">
                                 <div class="cta-card primary">
                                     <div>
                                         <div class="fw-700">Google<br>Home</div>
@@ -1653,7 +1657,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-4 col-md col-lg-4">
+                            <div class="col-4 col-md col-xl-4">
                                 <div class="cta-card primary">
                                     <div>
                                         <div class="fw-700">Alexa</div>
@@ -1666,9 +1670,13 @@
                             <div>Supplied &amp; Installed starting from</div>
                             <div class="font-anton fs-60 lh-1 py-2">$1,900</div>
                         </div>
-                        <a href="#form" class="btn enquire-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
-                            Enquire Now
-                        </a>
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-6 col-xl-12">
+                                <a href="#form" class="btn enquire-btn btn-gradient fw-600 rounded-pill text-white fs-20 p-3">
+                                    Enquire Now
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row justify-content-center pt-8 pb-5">

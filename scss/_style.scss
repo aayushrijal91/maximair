@@ -124,7 +124,7 @@ section.deal {
     background-size: contain;
     padding: 75px 0 55px;
 
-    @include media-breakpoint-down(lg) {
+    @include media-breakpoint-down(xl) {
         background: linear-gradient(90.92deg, #414A4A 7.41%, #1E2525 40%);
     }
 }
@@ -170,10 +170,10 @@ section.services {
                 color: #585858;
                 font-weight: 500;
 
-                @include media-breakpoint-down(lg) {
+                @include media-breakpoint-down(xl) {
                     width: auto;
                 }
-                
+
                 @include media-breakpoint-down(sm) {
                     padding: 0.5rem 5px;
                 }
@@ -265,6 +265,10 @@ section.services {
                     right: -50%;
                     top: 35%;
 
+                    @include media-breakpoint-down(xl) {
+                        right: -72%;
+                    }
+
                     @include media-breakpoint-down(lg) {
                         right: -82%;
                     }
@@ -320,6 +324,10 @@ section.same-day-servicing {
     background-size: contain;
     padding: 73px 0 55px;
     color: $white;
+
+    @include media-breakpoint-down(xl) {
+        background: linear-gradient(90.92deg, $tertiary 7.41%, $quartinary 50.2%);
+    }
 }
 
 .same-day-servicing-strip {
@@ -339,7 +347,7 @@ section.about {
         .content {
             color: $white;
 
-            @include media-breakpoint-up(lg) {
+            @include media-breakpoint-up(xl) {
                 right: 0;
                 top: 1rem;
                 position: absolute;
@@ -619,10 +627,14 @@ section.map-wrapper {
         height: 100%;
         padding: 20px 96px;
 
-        @include media-breakpoint-down(lg) {
-            padding: 48px 96px;
+        @include media-breakpoint-down(xl) {
+            padding: 48px;
             background-size: cover;
             background-position-x: left;
+        }
+
+        @include media-breakpoint-down(lg) {
+            padding: 48px 96px;
         }
 
         @include media-breakpoint-down(sm) {
