@@ -3,7 +3,7 @@ include __DIR__ . '/env.php';
 
 $site = "Maxim Air";
 $phone_number = "(02) 9157 5577";
-$admin_email = 'arijal@aiims.com.au';
+$admin_email = 'arijal@aiims.com.au'; // 'arran@maximair.com.au';
 $bcc_email = "";
 $no_reply_email = 'info@website.com.au';
 $recaptcha_client_secret = $client_secret;
