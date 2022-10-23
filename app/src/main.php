@@ -55,23 +55,31 @@
     <div class="special-offers">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-6 col-md-3 col-xl-2 text-center">
-                    <?= renderImg('ac-1.png', 'icons') ?>
-                    <div class="font-oswald fs-16 text-uppercase">Split System Cora</div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <a href="#split-system-cora" class="text-decoration-none text-dark d-flex flex-column align-items-center justify-content-center">
+                        <?= renderImg('ac-1.png', 'icons') ?>
+                        <div class="font-oswald fs-16 text-uppercase">Split System Cora</div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 col-xl-2">
+                    <a href="#split-system-lite" class="text-decoration-none text-dark d-flex flex-column align-items-center justify-content-center">
+                        <?= renderImg('ac-1.png', 'icons') ?>
+                        <div class="font-oswald fs-16 text-uppercase">Split System lite</div>
+                        <div class="d-inline-flex btn-gradient text-white rounded-5 fs-14 px-3 py-1 mt-1">Specials Available!</div>
+                    </a>
                 </div>
                 <div class="col-6 col-md-3 col-xl-2 text-center">
-                    <?= renderImg('ac-1.png', 'icons') ?>
-                    <div class="font-oswald fs-16 text-uppercase">Split System lite</div>
-                    <div class="d-inline-flex btn-gradient text-white rounded-5 fs-14 px-3 py-1 mt-1">Specials Available!</div>
+                    <a href="#ducted-system" class="text-decoration-none text-dark d-flex flex-column align-items-center justify-content-center">
+                        <?= renderImg('ac-2.png', 'icons') ?>
+                        <div class="font-oswald fs-16 text-uppercase">Ducted System</div>
+                        <div class="d-inline-flex btn-gradient text-white rounded-5 fs-14 px-3 py-1 mt-1">Specials Available!</div>
+                    </a>
                 </div>
                 <div class="col-6 col-md-3 col-xl-2 text-center">
-                    <?= renderImg('ac-2.png', 'icons') ?>
-                    <div class="font-oswald fs-16 text-uppercase">Ducted System</div>
-                    <div class="d-inline-flex btn-gradient text-white rounded-5 fs-14 px-3 py-1 mt-1">Specials Available!</div>
-                </div>
-                <div class="col-6 col-md-3 col-xl-2 text-center">
-                    <?= renderImg('hand-phone.png', 'icons') ?>
-                    <div class="font-oswald fs-16 text-uppercase">Smart Controller</div>
+                    <a href="#smart-controller" class="text-decoration-none text-dark d-flex flex-column align-items-center justify-content-center">
+                        <?= renderImg('hand-phone.png', 'icons') ?>
+                        <div class="font-oswald fs-16 text-uppercase">Smart Controller</div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -166,7 +174,7 @@
 </section>
 <div class="deal-strip"></div>
 
-<section class="services">
+<section class="services" id="ducted-system">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-11">
@@ -593,7 +601,7 @@
     </div>
 </section>
 
-<section class="services">
+<section class="services" id="split-system-cora">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-11">
@@ -1048,7 +1056,7 @@
 </section>
 <div class="same-day-servicing-strip"></div>
 
-<section class="services">
+<section class="services" id="split-system-lite">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-11">
@@ -1530,7 +1538,7 @@
     </div>
 </section>
 
-<section class="airtouch">
+<section class="airtouch" id="smart-controller">
     <div class="container">
         <ul class="nav nav-pills mb-6" id="pills-tab-airtouch" role="tablist">
             <li class="nav-item">
