@@ -200,7 +200,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN71AV1</div>
                             </div>
                             <div class="col-md-6 col-xl-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -256,7 +256,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$7,575</div>
+                                    <div class="font-anton fs-30 py-2">Enquire for Price</div>
                                 </div>
 
                                 <div class="row justify-content-center">
@@ -346,7 +346,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-xl-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 125 AV1</div>
                             </div>
                             <div class="col-xl-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -402,7 +402,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$7,575</div>
+                                    <div class="font-anton fs-60 price py-2">$7,975</div>
                                 </div>
 
                                 <div class="row justify-content-center">
@@ -419,7 +419,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 140 AV1</div>
                             </div>
                             <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -475,7 +475,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$7,575</div>
+                                    <div class="font-anton fs-60 price py-2">$8,875</div>
                                 </div>
 
                                 <div class="row justify-content-center">
@@ -492,7 +492,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("daikin-10.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 160 AV1</div>
                             </div>
                             <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -548,7 +548,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$7,575</div>
+                                    <div class="font-anton fs-30 py-2">Enquire for Price</div>
                                 </div>
 
                                 <div class="row justify-content-center">
@@ -679,7 +679,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,739</div>
+                                    <div class="font-anton fs-60 price py-2">$1,720</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -695,7 +695,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FTXV25W</div>
                             </div>
                             <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -744,7 +744,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,749</div>
+                                    <div class="font-anton fs-60 price py-2">$1,760</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -760,7 +760,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FTXW25W</div>
                             </div>
                             <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -809,7 +809,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,949</div>
+                                    <div class="font-anton fs-60 price py-2">$1,890</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -825,7 +825,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FTXV50W</div>
                             </div>
                             <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -874,7 +874,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$2,439</div>
+                                    <div class="font-anton fs-60 price py-2">$2,599</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -890,7 +890,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FTXV60W</div>
                             </div>
                             <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -939,7 +939,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$2,639</div>
+                                    <div class="font-anton fs-60 price py-2">$2,890</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -955,7 +955,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FTX71W</div>
                             </div>
                             <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -1004,7 +1004,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$2,789</div>
+                                    <div class="font-anton fs-30 py-2">Enquire for Price</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -1134,7 +1134,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,739</div>
+                                    <div class="font-anton fs-60 price py-2">$1,600</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -1150,7 +1150,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FTX 25W</div>
                             </div>
                             <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -1199,7 +1199,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,749</div>
+                                    <div class="font-anton fs-60 price py-2">$1,690</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -1215,7 +1215,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FTX 35W</div>
                             </div>
                             <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -1264,7 +1264,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$1,949</div>
+                                    <div class="font-anton fs-60 price py-2">$1,810</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -1280,7 +1280,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FTX FSOW</div>
                             </div>
                             <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -1329,7 +1329,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$2,439</div>
+                                    <div class="font-anton fs-60 price py-2">$2,529</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -1345,7 +1345,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FTX F60W</div>
                             </div>
                             <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -1394,7 +1394,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$2,639</div>
+                                    <div class="font-anton fs-60 price py-2">$2,790</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
@@ -1410,7 +1410,7 @@
                         <div class="row align-items-center gy-5">
                             <div class="col-md-6">
                                 <?= renderImg("cora-aircons-5.png", "lib", "hero_img") ?>
-                                <div class="pt-4"><span class="fw-600">Model no.</span> FDYAN 100 AV1</div>
+                                <div class="pt-4"><span class="fw-600">Model no.</span> FTXF71W</div>
                             </div>
                             <div class="col-md-6 text-center px-xl-5">
                                 <?= renderImg('daikin.png', 'logo') ?>
@@ -1459,7 +1459,7 @@
                                 </div>
                                 <div class="text-center pt-3 pb-5">
                                     <div class="">Supplied &amp; Installed</div>
-                                    <div class="font-anton fs-60 price py-2">$2,789</div>
+                                    <div class="font-anton fs-30 py-2">Enquire for Price</div>
                                 </div>
                                 <div class="row justify-content-center">
                                     <div class="col-xl-8">
