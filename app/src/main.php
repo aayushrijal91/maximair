@@ -1729,6 +1729,8 @@
     </div>
     <div class="form-main">
         <form action="./src/form" method="POST">
+            <input type="hidden" name="token" id="recaptchaResponse" class="recaptchaResponse">
+
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xxl-11">
@@ -1909,11 +1911,11 @@
                             <tbody>
                                 <tr class="py-5">
                                     <td class="font-oswald fs-20 text-uppercase fw-500 pe-4">Phone No.</td>
-                                    <td><?= $phone_number ?></td>
+                                    <td class="font-oswald fs-20 text-uppercase fw-500"><?= $phone_number ?></td>
                                 </tr>
                                 <tr class="py-3">
                                     <td class="font-oswald fs-20 text-uppercase fw-500 pe-4">Email</td>
-                                    <td><?= $admin_email ?></td>
+                                    <td><?= $no_reply_email ?></td>
                                 </tr>
                                 <tr class="py-3">
                                     <td class="font-oswald fs-20 text-uppercase fw-500 pe-4">Location</td>
