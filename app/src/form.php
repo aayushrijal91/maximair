@@ -60,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
             '</tr>' .
             '<tr>' .
             '<td>Message</td>' .
-            '<td><b>' . strip_tags($message) . '</b></td>' .
+            '<td><b>' . strip_tags($comment) . '</b></td>' .
             '</tr>' .
             '</tbody></table></body></html>';
 

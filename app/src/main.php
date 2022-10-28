@@ -212,7 +212,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-6">
-                                                <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">5 x</span> Outlets</div>
+                                                <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">6 x</span> Outlets</div>
                                             </div>
                                             <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">2 x</span> Zones</div>
@@ -285,7 +285,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-6">
-                                                <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">5 x</span> Outlets</div>
+                                                <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">6 x</span> Outlets</div>
                                             </div>
                                             <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">2 x</span> Zones</div>
@@ -358,7 +358,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-6">
-                                                <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">5 x</span> Outlets</div>
+                                                <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">7 x</span> Outlets</div>
                                             </div>
                                             <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">2 x</span> Zones</div>
@@ -431,7 +431,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-6">
-                                                <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">5 x</span> Outlets</div>
+                                                <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">7 x</span> Outlets</div>
                                             </div>
                                             <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">2 x</span> Zones</div>
@@ -504,7 +504,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-6">
-                                                <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">5 x</span> Outlets</div>
+                                                <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">8 x</span> Outlets</div>
                                             </div>
                                             <div class="col-6">
                                                 <div class="bordered border-dark rounded-9 py-1 fs-20"><span class="fw-700">2 x</span> Zones</div>
